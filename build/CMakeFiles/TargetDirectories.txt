@@ -1,0 +1,5 @@
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/plusi_lr_avt.dir
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/edit_cache.dir
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/rebuild_cache.dir
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/plusi_lr_avt_autogen_timestamp_deps.dir
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/plusi_lr_avt_autogen.dir
