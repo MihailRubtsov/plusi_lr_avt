@@ -27,7 +27,7 @@ vector<string> razbiv_srt(string strr) {
 int dlin_file() {
     int dl {0};
     string line;
-    ifstream in("prob.txt");
+    ifstream in("sortirov/prob.txt");
 
     if (in.is_open()) {
         while (getline(in, line)) {
@@ -42,7 +42,7 @@ int main() {
     int dlin = dlin_file();
     Student* arr = new Student[dlin];
     string line;
-    ifstream in("prob.txt");
+    ifstream in("sortirov/prob.txt");
     int i = 0;
     if (in.is_open()) {
         while (getline(in, line)) {
