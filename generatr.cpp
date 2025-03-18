@@ -13,14 +13,15 @@ int main(){
     int pr;
     int vt;
     int tr;
-    out.open("prob.txt");
+    out.open("sortirov/prob.txt");
     if (out.is_open()){
-        for (int i = 0; i < 100000 ; i ++){
+        for (int i = 0; i < 10000 ; i ++){
             pr = rand() % 10;
             vt = rand() % 5;
             tr = rand() % 100 + 1;
             out<< imia[pr] << " " << grop[vt] << " " << tr << endl;
         }
+        out.close();
         
     }
     

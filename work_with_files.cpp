@@ -6,23 +6,10 @@
 #include "Student.h"
 #include "sortirov/sort_v.h"
 #include "sortirov/sort_b.h"
+#include "file_g_p.h"
 #include <chrono>
 
 using namespace std;
-
-vector<string> razbiv_srt(string strr) {
-    istringstream iss(strr);
-    vector<string> tokens;
-    string token;
-    while (getline(iss, token, ' ')) {
-        tokens.push_back(token);
-    }
-    if (tokens.size() < 3) {
-        cout << "В строке меньше трех слов!" << endl;
-        return tokens;
-    }
-    return tokens;
-}
 
 int dlin_file() {
     int dl {0};
@@ -37,20 +24,11 @@ int dlin_file() {
     return dl;
 }
 
+
 int main() {
-    cout << dlin_file() << endl;
     int dlin = dlin_file();
     Student* arr = new Student[dlin];
-    string line;
-    ifstream in("sortirov/prob.txt");
-    int i = 0;
-    if (in.is_open()) {
-        while (getline(in, line)) {
-            vector<string> vek = razbiv_srt(line);
-            arr[i] = Student(vek[0], vek[1], stof(vek[2]));
-            i++;
-        }
-    }
+    get_massiv(arr, dlin);
     int vib;
     cout << "Выберете сортировку которой хотите сортировать массив.\n1 - сортировка пузырьком\n2 - сортировка вставками" << endl;
     cin >> vib;
@@ -77,9 +55,7 @@ int main() {
         break;
 
     }
-    for (int i = 0; i < dlin ; i++) {
-        //arr[i].inform();
-    }
+    otpr_to_file(arr, dlin);
     delete[] arr;
     return 0;
 }
