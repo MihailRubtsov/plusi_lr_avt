@@ -3,29 +3,14 @@
 #include <sstream>
 #include <fstream>
 #include <vector>
-using namespace std; 
-class Student {
-public:
-    string name;
-    string GRoup;
-    float sr_ball;
-    Student(string pname, string pgroup, float psr_ball){
-        name = pname;
-        GRoup = pgroup;
-        sr_ball = psr_ball;
-    }
-    Student(){
-        name = "None";
-        GRoup = "None";
-        sr_ball = 0.0;
-    }
-    void inform(){
-        cout << name << " " << GRoup << " " << sr_ball<< endl;
+#include "Student.h"
+#include "sortirov/sort_v.h"
+#include "sortirov/sort_b.h"
+#include <chrono>
 
-    }
+using namespace std;
 
-};
-vector<string> razbiv_srt(string strr){
+vector<string> razbiv_srt(string strr) {
     istringstream iss(strr);
     vector<string> tokens;
     string token;
@@ -37,36 +22,64 @@ vector<string> razbiv_srt(string strr){
         return tokens;
     }
     return tokens;
-
 }
 
+int dlin_file() {
+    int dl {0};
+    string line;
+    ifstream in("prob.txt");
 
+    if (in.is_open()) {
+        while (getline(in, line)) {
+            dl++;
+        }
+    }
+    return dl;
+}
 
-int main(){
-    int dlin{50};
-    //cin >> dlin;
-    //string* arr_str = new string[50];
+int main() {
+    cout << dlin_file() << endl;
+    int dlin = dlin_file();
     Student* arr = new Student[dlin];
     string line;
     ifstream in("prob.txt");
     int i = 0;
-    if (in.is_open()){
-        while (getline(in, line)){
+    if (in.is_open()) {
+        while (getline(in, line)) {
             vector<string> vek = razbiv_srt(line);
             arr[i] = Student(vek[0], vek[1], stof(vek[2]));
             i++;
         }
     }
+    int vib;
+    cout << "Выберете сортировку которой хотите сортировать массив.\n1 - сортировка пузырьком\n2 - сортировка вставками" << endl;
+    cin >> vib;
 
+    chrono::time_point<chrono::high_resolution_clock> start, end;
+    chrono::milliseconds duration;
+    switch (vib)
+    {
+    case 1 :
+        start = chrono::high_resolution_clock::now();
+        sort_B(arr, dlin);
+        end = chrono::high_resolution_clock::now();
+        duration = chrono::duration_cast<chrono::milliseconds>(end - start);
+        cout << "Время выполнения сортировки: " << duration.count() << " мс" << endl;
+        cout << "сортировка пузырьком" << endl;
+        break;
+    case 2:
+        start = chrono::high_resolution_clock::now();
+        selectionSort(arr, dlin);
+        end = chrono::high_resolution_clock::now();
+        duration = chrono::duration_cast<chrono::milliseconds>(end - start);
+        cout << "Время выполнения сортировки: " << duration.count() << " мс" <<endl;
+        cout << "сортировка вставками" << endl;
+        break;
 
-
-    
-
-    for (int i = 0; i < dlin ; i++){
-        arr[i].inform();
+    }
+    for (int i = 0; i < dlin ; i++) {
+        //arr[i].inform();
     }
     delete[] arr;
-
-
     return 0;
 }

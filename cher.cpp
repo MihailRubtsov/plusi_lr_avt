@@ -20,6 +20,8 @@ vector<string> razbiv_srt(string strr){
 
 }
 
+
+
 int main(){
     string* arr = new string[50];
     string line;
