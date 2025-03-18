@@ -1,2 +1,2 @@
-# Empty dependencies file for plusi_lr_avt.
+# Empty dependencies file for Qt6App.
 # This may be replaced when dependencies are built.

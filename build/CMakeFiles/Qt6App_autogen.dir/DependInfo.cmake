@@ -8,9 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "" "plusi_lr_avt_autogen/timestamp" "custom" "plusi_lr_avt_autogen/deps"
-  "/home/misha/CNPZD/plusi_lr_avt/main.cpp" "CMakeFiles/plusi_lr_avt.dir/main.cpp.o" "gcc" "CMakeFiles/plusi_lr_avt.dir/main.cpp.o.d"
-  "/home/misha/CNPZD/plusi_lr_avt/build/plusi_lr_avt_autogen/mocs_compilation.cpp" "CMakeFiles/plusi_lr_avt.dir/plusi_lr_avt_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/plusi_lr_avt.dir/plusi_lr_avt_autogen/mocs_compilation.cpp.o.d"
+  "" "Qt6App_autogen/timestamp" "custom" "Qt6App_autogen/deps"
   )
 
 # Targets to which this target links which contain Fortran sources.

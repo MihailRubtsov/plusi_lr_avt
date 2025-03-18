@@ -117,50 +117,74 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named plusi_lr_avt
+# Target rules for targets named Qt6App
 
 # Build rule for target.
-plusi_lr_avt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plusi_lr_avt
-.PHONY : plusi_lr_avt
+Qt6App: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Qt6App
+.PHONY : Qt6App
 
 # fast build rule for target.
-plusi_lr_avt/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plusi_lr_avt.dir/build.make CMakeFiles/plusi_lr_avt.dir/build
-.PHONY : plusi_lr_avt/fast
+Qt6App/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt6App.dir/build.make CMakeFiles/Qt6App.dir/build
+.PHONY : Qt6App/fast
 
 #=============================================================================
-# Target rules for targets named plusi_lr_avt_autogen_timestamp_deps
+# Target rules for targets named Qt6App_autogen_timestamp_deps
 
 # Build rule for target.
-plusi_lr_avt_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plusi_lr_avt_autogen_timestamp_deps
-.PHONY : plusi_lr_avt_autogen_timestamp_deps
+Qt6App_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Qt6App_autogen_timestamp_deps
+.PHONY : Qt6App_autogen_timestamp_deps
 
 # fast build rule for target.
-plusi_lr_avt_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plusi_lr_avt_autogen_timestamp_deps.dir/build.make CMakeFiles/plusi_lr_avt_autogen_timestamp_deps.dir/build
-.PHONY : plusi_lr_avt_autogen_timestamp_deps/fast
+Qt6App_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt6App_autogen_timestamp_deps.dir/build.make CMakeFiles/Qt6App_autogen_timestamp_deps.dir/build
+.PHONY : Qt6App_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named plusi_lr_avt_autogen
+# Target rules for targets named Qt6App_autogen
 
 # Build rule for target.
-plusi_lr_avt_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plusi_lr_avt_autogen
-.PHONY : plusi_lr_avt_autogen
+Qt6App_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Qt6App_autogen
+.PHONY : Qt6App_autogen
 
 # fast build rule for target.
-plusi_lr_avt_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plusi_lr_avt_autogen.dir/build.make CMakeFiles/plusi_lr_avt_autogen.dir/build
-.PHONY : plusi_lr_avt_autogen/fast
+Qt6App_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt6App_autogen.dir/build.make CMakeFiles/Qt6App_autogen.dir/build
+.PHONY : Qt6App_autogen/fast
+
+Qt6App_autogen/mocs_compilation.o: Qt6App_autogen/mocs_compilation.cpp.o
+.PHONY : Qt6App_autogen/mocs_compilation.o
+
+# target to build an object file
+Qt6App_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt6App.dir/build.make CMakeFiles/Qt6App.dir/Qt6App_autogen/mocs_compilation.cpp.o
+.PHONY : Qt6App_autogen/mocs_compilation.cpp.o
+
+Qt6App_autogen/mocs_compilation.i: Qt6App_autogen/mocs_compilation.cpp.i
+.PHONY : Qt6App_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Qt6App_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt6App.dir/build.make CMakeFiles/Qt6App.dir/Qt6App_autogen/mocs_compilation.cpp.i
+.PHONY : Qt6App_autogen/mocs_compilation.cpp.i
+
+Qt6App_autogen/mocs_compilation.s: Qt6App_autogen/mocs_compilation.cpp.s
+.PHONY : Qt6App_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Qt6App_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt6App.dir/build.make CMakeFiles/Qt6App.dir/Qt6App_autogen/mocs_compilation.cpp.s
+.PHONY : Qt6App_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plusi_lr_avt.dir/build.make CMakeFiles/plusi_lr_avt.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt6App.dir/build.make CMakeFiles/Qt6App.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -168,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plusi_lr_avt.dir/build.make CMakeFiles/plusi_lr_avt.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt6App.dir/build.make CMakeFiles/Qt6App.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -176,32 +200,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plusi_lr_avt.dir/build.make CMakeFiles/plusi_lr_avt.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt6App.dir/build.make CMakeFiles/Qt6App.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-plusi_lr_avt_autogen/mocs_compilation.o: plusi_lr_avt_autogen/mocs_compilation.cpp.o
-.PHONY : plusi_lr_avt_autogen/mocs_compilation.o
-
-# target to build an object file
-plusi_lr_avt_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plusi_lr_avt.dir/build.make CMakeFiles/plusi_lr_avt.dir/plusi_lr_avt_autogen/mocs_compilation.cpp.o
-.PHONY : plusi_lr_avt_autogen/mocs_compilation.cpp.o
-
-plusi_lr_avt_autogen/mocs_compilation.i: plusi_lr_avt_autogen/mocs_compilation.cpp.i
-.PHONY : plusi_lr_avt_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-plusi_lr_avt_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plusi_lr_avt.dir/build.make CMakeFiles/plusi_lr_avt.dir/plusi_lr_avt_autogen/mocs_compilation.cpp.i
-.PHONY : plusi_lr_avt_autogen/mocs_compilation.cpp.i
-
-plusi_lr_avt_autogen/mocs_compilation.s: plusi_lr_avt_autogen/mocs_compilation.cpp.s
-.PHONY : plusi_lr_avt_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-plusi_lr_avt_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plusi_lr_avt.dir/build.make CMakeFiles/plusi_lr_avt.dir/plusi_lr_avt_autogen/mocs_compilation.cpp.s
-.PHONY : plusi_lr_avt_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -211,15 +211,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... plusi_lr_avt_autogen"
-	@echo "... plusi_lr_avt_autogen_timestamp_deps"
-	@echo "... plusi_lr_avt"
+	@echo "... Qt6App_autogen"
+	@echo "... Qt6App_autogen_timestamp_deps"
+	@echo "... Qt6App"
+	@echo "... Qt6App_autogen/mocs_compilation.o"
+	@echo "... Qt6App_autogen/mocs_compilation.i"
+	@echo "... Qt6App_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... plusi_lr_avt_autogen/mocs_compilation.o"
-	@echo "... plusi_lr_avt_autogen/mocs_compilation.i"
-	@echo "... plusi_lr_avt_autogen/mocs_compilation.s"
 .PHONY : help
 
 

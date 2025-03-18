@@ -196,7 +196,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=plusi_lr_avt
+CMAKE_PROJECT_NAME:STATIC=Qt6App
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -312,6 +312,15 @@ QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
 //Additional directories where find(Qt6 ...) components are searched
 QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
 
+//Value Computed by CMake
+Qt6App_BINARY_DIR:STATIC=/home/misha/CNPZD/plusi_lr_avt/build
+
+//Value Computed by CMake
+Qt6App_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Qt6App_SOURCE_DIR:STATIC=/home/misha/CNPZD/plusi_lr_avt
+
 //The directory containing a CMake configuration file for Qt6CoreTools.
 Qt6CoreTools_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools
 
@@ -356,15 +365,6 @@ XKB_INCLUDE_DIR:PATH=XKB_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
 XKB_LIBRARY:FILEPATH=XKB_LIBRARY-NOTFOUND
-
-//Value Computed by CMake
-plusi_lr_avt_BINARY_DIR:STATIC=/home/misha/CNPZD/plusi_lr_avt/build
-
-//Value Computed by CMake
-plusi_lr_avt_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-plusi_lr_avt_SOURCE_DIR:STATIC=/home/misha/CNPZD/plusi_lr_avt
 
 
 ########################
