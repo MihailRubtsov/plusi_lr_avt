@@ -11,10 +11,10 @@
 
 using namespace std;
 
-int dlin_file() {
+int dlin_file(string name_f) {
     int dl {0};
     string line;
-    ifstream in("sortirov/prob.txt");
+    ifstream in(name_f);
 
     if (in.is_open()) {
         while (getline(in, line)) {
@@ -25,17 +25,15 @@ int dlin_file() {
 }
 
 
-int main() {
-    int dlin = dlin_file();
+int mainn(string name_file, int vibb, int vib_k) {
+    int dlin = dlin_file(name_file);
     Student* arr = new Student[dlin];
     get_massiv(arr, dlin);
-    int vib;
-    cout << "Выберете сортировку которой хотите сортировать массив.\n1 - сортировка пузырьком\n2 - сортировка вставками" << endl;
-    cin >> vib;
+    
 
     chrono::time_point<chrono::high_resolution_clock> start, end;
     chrono::milliseconds duration;
-    switch (vib)
+    switch (vibb)
     {
     case 1 :
         start = chrono::high_resolution_clock::now();
@@ -59,3 +57,5 @@ int main() {
     delete[] arr;
     return 0;
 }
+
+
