@@ -5,26 +5,17 @@
 #include <vector>
 using namespace std;
 
+class Student{
+public:
+string name;
+string GRoup;
+float sr_ball;
 
+};
 
 
 int main(){
-    string st1;
-    st1 = "Mama";
-    string st2;
-    st2 = "Amam";
-    char p1;
-    p1 = st1[0];
-    char p2;
-    p2 = st2[0];
-    cout << p1 << " " << p2 << endl;
-
-    if (p1 > p2){
-        cout << st2 << " " << st1 << endl;
-    }
-    else{
-        cout << st1 << " " << st2 << endl;
-    }
+    
 
     
     

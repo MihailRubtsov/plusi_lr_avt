@@ -8,12 +8,12 @@ void sort_B(Student* mass, int size, int vibbr, int kak) { //сортировк�
         case 1: // сортировка по баллам
             for (int i = 0; i < size-1; ++ i) {
                 for (int j = 0; j < size-i-1; ++j) {
-                    if (kak == 1){
+                    if (kak == 1){ // от меньшего к большему
                         if (mass[j].get_ball() > mass[j + 1].get_ball()) {
                             swap(mass[j], mass[j+1]);
                         }
                     }
-                    else {
+                    else { // от большего к меньшему
                         if (mass[j].get_ball() < mass[j + 1].get_ball()) {
                             swap(mass[j], mass[j+1]);
                         }
@@ -25,12 +25,12 @@ void sort_B(Student* mass, int size, int vibbr, int kak) { //сортировк�
         case 2: // сортировка по имени
             for (int i = 0; i < size-1; ++ i) {
                 for (int j = 0; j < size-i-1; ++j) {
-                    if (kak == 1){
+                    if (kak == 1){ // в алфавитном порядке
                         if (mass[j].get_name() > mass[j + 1].get_name()) {
                             swap(mass[j], mass[j+1]);
                         }
                     }
-                    else {
+                    else { // в обратном алфавитному
                         if (mass[j].get_name() < mass[j + 1].get_name()) {
                            swap(mass[j], mass[j+1]);
                         }
@@ -42,12 +42,12 @@ void sort_B(Student* mass, int size, int vibbr, int kak) { //сортировк�
         case 3: // сортировка по группе
             for (int i = 0; i < size-1; ++ i) {
                 for (int j = 0; j < size-i-1; ++j) {
-                    if (kak == 1){
+                    if (kak == 1){ // от меньшей к большей
                         if (mass[j].get_group() > mass[j + 1].get_group()) {
                             swap(mass[j], mass[j+1]);
                         }
                     }
-                    else {
+                    else { // от большей к меньшей
                         if (mass[j].get_group() < mass[j + 1].get_group()) {
                            swap(mass[j], mass[j+1]);
                         }

@@ -35,8 +35,7 @@ int mainn(string name_file, int vibb, int vib_k, int kk) {
     chrono::milliseconds duration;
     switch (vibb)
     {
-    case 1 :
-        
+    case 1 : // если сортировка пузырьком
         start = chrono::high_resolution_clock::now();
         sort_B(arr, dlin, vib_k , kk);
         end = chrono::high_resolution_clock::now();
@@ -44,7 +43,7 @@ int mainn(string name_file, int vibb, int vib_k, int kk) {
         cout << "Время выполнения сортировки: " << duration.count() << " мс" << endl;
         cout << "сортировка пузырьком" << endl;
         break;
-    case 2:
+    case 2: // сортировка вставками
         start = chrono::high_resolution_clock::now();
         selectionSort(arr, dlin, vib_k , kk);
         end = chrono::high_resolution_clock::now();
