@@ -3,22 +3,68 @@
 using namespace std;
 
 
-int find_p(Student list[], int start_p, int listLength)  
+int find_p(Student list[], int start_p, int listLength, int vibbr, int kak)  
 {
+    
     int pos = start_p; 
-    for (int i = start_p; i < listLength; i++) 
-    {
-        if (list[i].get_ball() < list[pos].get_ball())
-        pos = i; 
+    switch(vibbr){
+        case 1:
+        if (kak == 1){
+            for (int i = start_p; i < listLength; i++) 
+            {
+                if (list[i].get_ball() < list[pos].get_ball())
+                pos = i; 
+            }
+        }
+        else{
+            for (int i = start_p; i < listLength; i++) 
+            {
+                if (list[i].get_ball() > list[pos].get_ball())
+                pos = i; 
+            }
+        }
+        break;
+        case 2:
+        if (kak == 1){
+            for (int i = start_p; i < listLength; i++) 
+            {
+                if (list[i].get_name() < list[pos].get_name())
+                pos = i; 
+            }
+        }
+        else{
+            for (int i = start_p; i < listLength; i++) 
+            {
+                if (list[i].get_name() > list[pos].get_name())
+                pos = i; 
+            }
+        }
+        break;
+        case 3:
+        if (kak == 1){
+            for (int i = start_p; i < listLength; i++) 
+            {
+                if (list[i].get_group() < list[pos].get_group())
+                pos = i; 
+            }
+        }
+        else{
+            for (int i = start_p; i < listLength; i++) 
+            {
+                if (list[i].get_group() > list[pos].get_group())
+                pos = i; 
+            }
+        }
+        break;
     }
     return pos; 
 }
 
-void selectionSort(Student list[], int len) // сортировка вставками
+void selectionSort(Student list[], int len, int vr, int kk) // сортировка вставками
 {
     for (int i = 0; i < len; i++) 
     {
-        int smalls_p = find_p(list, i, len);
+        int smalls_p = find_p(list, i, len, vr,kk);
         swap(list[i], list[smalls_p]);
     }
 }

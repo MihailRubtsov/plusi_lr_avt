@@ -5,36 +5,28 @@
 #include <vector>
 using namespace std;
 
-vector<string> razbiv_srt(string strr){
-    istringstream iss(strr);
-    vector<string> tokens;
-    string token;
-    while (getline(iss, token, ' ')) {
-        tokens.push_back(token);
-    }
-    if (tokens.size() < 3) {
-        cout << "В строке меньше трех слов!" << endl;
-        return tokens;
-    }
-    return tokens;
-
-}
 
 
 
 int main(){
-    string* arr = new string[50];
-    string line;
-    ifstream in("prob.txt");
-    int i = 0;
-    if (in.is_open()){
-        while (getline(in, line)){
-            arr[i] = line;
-            i++;
-        }
+    string st1;
+    st1 = "Mama";
+    string st2;
+    st2 = "Amam";
+    char p1;
+    p1 = st1[0];
+    char p2;
+    p2 = st2[0];
+    cout << p1 << " " << p2 << endl;
+
+    if (p1 > p2){
+        cout << st2 << " " << st1 << endl;
     }
-    for (int i = 0; i < 50; i++){
-        cout << arr[i] << endl;
+    else{
+        cout << st1 << " " << st2 << endl;
     }
+
+    
+    
     return 0;
 }

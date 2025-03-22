@@ -25,7 +25,7 @@ int dlin_file(string name_f) {
 }
 
 
-int mainn(string name_file, int vibb, int vib_k) {
+int mainn(string name_file, int vibb, int vib_k, int kk) {
     int dlin = dlin_file(name_file);
     Student* arr = new Student[dlin];
     get_massiv(arr, dlin);
@@ -36,8 +36,9 @@ int mainn(string name_file, int vibb, int vib_k) {
     switch (vibb)
     {
     case 1 :
+        
         start = chrono::high_resolution_clock::now();
-        sort_B(arr, dlin);
+        sort_B(arr, dlin, vib_k , kk);
         end = chrono::high_resolution_clock::now();
         duration = chrono::duration_cast<chrono::milliseconds>(end - start);
         cout << "Время выполнения сортировки: " << duration.count() << " мс" << endl;
@@ -45,7 +46,7 @@ int mainn(string name_file, int vibb, int vib_k) {
         break;
     case 2:
         start = chrono::high_resolution_clock::now();
-        selectionSort(arr, dlin);
+        selectionSort(arr, dlin, vib_k , kk);
         end = chrono::high_resolution_clock::now();
         duration = chrono::duration_cast<chrono::milliseconds>(end - start);
         cout << "Время выполнения сортировки: " << duration.count() << " мс" <<endl;
