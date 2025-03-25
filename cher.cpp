@@ -15,6 +15,7 @@ float sr_ball;
 
 
 int main(){
+    cout << "Ура я поставил эту залупу" << endl;
     
 
     

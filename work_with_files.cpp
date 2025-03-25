@@ -7,6 +7,7 @@
 #include "sortirov/sort_v.h"
 #include "sortirov/sort_b.h"
 #include "file_g_p.h"
+#include "sortirov/sich_sort.h"
 #include <chrono>
 
 using namespace std;
@@ -51,7 +52,14 @@ int mainn(string name_file, int vibb, int vib_k, int kk) {
         cout << "Время выполнения сортировки: " << duration.count() << " мс" <<endl;
         cout << "сортировка вставками" << endl;
         break;
-
+    case 3:
+    start = chrono::high_resolution_clock::now();
+    sorti(arr, dlin, vib_k , kk);
+    end = chrono::high_resolution_clock::now();
+    duration = chrono::duration_cast<chrono::milliseconds>(end - start);
+    cout << "Время выполнения сортировки: " << duration.count() << " мс" << endl;
+    cout << "сортировка sort от C++" << endl;
+    break;
     }
     otpr_to_file(arr, dlin);
     delete[] arr;

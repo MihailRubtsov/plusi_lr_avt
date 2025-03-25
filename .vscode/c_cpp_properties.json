@@ -4,9 +4,13 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include/x86_64-linux-gnu/qt6/QtWidgets",
-                "/usr/include/x86_64-linux-gnu/qt6",
-                "/usr/lib/x86_64-linux-gnu"
+                "/usr/include/qt6/",                     // Основные заголовки Qt6
+                "/usr/include/qt6/QtCore",                // QtCore
+                "/usr/include/qt6/QtGui",                 // QtGui
+                "/usr/include/qt6/QtWidgets",             // QtWidgets (если используете)
+                "/usr/include/qt6/QtNetwork",             // QtNetwork (если нужно)
+                "/usr/lib/qt6/mkspecs/linux-g++",        // Для qmake (если используется)
+                "/usr/lib/cmake/" 
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
