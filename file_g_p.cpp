@@ -51,13 +51,3 @@ void otpr_to_file(Student* mass, int dlina){
         outt.close();
     }
 }
-
-void add_to_file(string strok){
-    ofstream outt;
-    outt.open("sortirov/prob.txt");
-    if (outt.is_open()){
-        outt << strok<< endl;
-        outt.close();
-    }
-
-}

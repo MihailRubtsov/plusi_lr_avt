@@ -1,9 +1,20 @@
 #include <iostream>
 #include <string>
+#include "add_to_file.h"
 #include "work_with_files.h"
 using namespace std;
 
 int main(){
+    cout << "Если хотите добавить строку то напишите 1." << endl;
+    int nap;
+    cin >> nap;
+    if (nap == 1){
+        cout << "Напишите строку" << endl;
+        cin.ignore();
+        string nadp;
+        getline(cin, nadp);
+        add_to_file(nadp);
+    }
     int vib;
     cout << "Выберете сортировку которой хотите сортировать массив.\n1 - сортировка пузырьком\n2 - сортировка вставками\n3 - сортировка sort от C++" << endl;
     cin >> vib;
