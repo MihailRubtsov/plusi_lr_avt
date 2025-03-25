@@ -10,14 +10,26 @@ using namespace std;
 bool compare_two(Student& a, Student& b, int vibr, int kakak) { 
     switch(vibr){
         case 1: // по среднему баллу
-            if (kakak == 1) return a.get_ball() < b.get_ball();
-            else return a.get_ball() > b.get_ball();
+            if (kakak == 1) {
+                return a.get_ball() < b.get_ball();
+            }
+            else{
+                return a.get_ball() > b.get_ball();
+            }
         case 2: // по имени
-            if (kakak == 1) return a.get_name() < b.get_name();
-            else return a.get_name() > b.get_name();
+            if (kakak == 1) {
+                return a.get_name() < b.get_name();
+            }
+            else {
+                return a.get_name() > b.get_name();
+            }
         case 3: // по группе
-            if (kakak == 1) return a.get_group() < b.get_group();
-            else return a.get_group() > b.get_group();
+            if (kakak == 1) {
+                return a.get_group() < b.get_group();
+            }
+            else {
+                return a.get_group() > b.get_group();
+            }
         default:
             return false;
     }
