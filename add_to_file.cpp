@@ -4,11 +4,11 @@
 using namespace std;
 
 
-void add_to_file(string strok){
+void add_to_file(string name, string groupp, string balik){
     ofstream outt;
     outt.open("sortirov/prob.txt", ios::app);
     if (outt.is_open()){
-        outt << endl << strok<< endl;
+        outt << endl << name << " " << groupp<<" " << balik;
         outt.close();
     }
 

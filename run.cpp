@@ -10,10 +10,13 @@ int main(){
     cin >> nap;
     if (nap == 1){
         cout << "Напишите строку" << endl;
-        cin.ignore();
-        string nadp;
-        getline(cin, nadp);
-        add_to_file(nadp);
+        string nmmm;
+        string grrr;
+        string bll;
+        cin >> nmmm;
+        cin >> grrr;
+        cin >> bll;
+        add_to_file(nmmm, grrr, bll);
     }
     int vib;
     cout << "Выберете сортировку которой хотите сортировать массив.\n1 - сортировка пузырьком\n2 - сортировка вставками\n3 - сортировка sort от C++" << endl;

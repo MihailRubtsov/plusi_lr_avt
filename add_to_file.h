@@ -4,6 +4,6 @@
 using namespace std;
 
 
-void add_to_file(string strok);
+void add_to_file(string name, string groupp, string balik);
 
 #endif
