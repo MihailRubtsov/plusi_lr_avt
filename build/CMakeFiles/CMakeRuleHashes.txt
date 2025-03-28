@@ -1,4 +1,3 @@
 # Hashes of file build rules.
-c57c7e44c95fd7e7ac289be21fe76e4f CMakeFiles/Qt6App_autogen
-c57c7e44c95fd7e7ac289be21fe76e4f CMakeFiles/Qt6App_autogen_timestamp_deps
-4f53ebb970b4135d51dc1b81392ac9ca Qt6App_autogen/timestamp
+5ccde925b8b60635c594846634d897e6 CMakeFiles/StudentSorter_autogen
+77b39d697bf265c7838a3513f0dc8a71 StudentSorter_autogen/timestamp

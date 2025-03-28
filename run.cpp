@@ -5,6 +5,9 @@
 using namespace std;
 
 int main(){
+    string nazv_file;
+    cout << "Введите название файла: " << endl;
+    cin >> nazv_file;
     cout << "Если хотите добавить строку то напишите 1." << endl;
     int nap;
     cin >> nap;
@@ -29,6 +32,6 @@ int main(){
     int kk;
     cout << "напиши 1 чтобы от меньшего к большему и 2 от большему к меньшему " << endl;
     cin >> kk;
-    mainn(name, vib, vr, kk);
+    mainn(nazv_file, vib, vr, kk);
     return 0;
 }

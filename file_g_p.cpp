@@ -20,9 +20,9 @@ vector<string> razbiv_srt(string strr) {
     return tokens;
 }
 
-void get_massiv(Student* mass, int dlina){
+void get_massiv(string nazv_file, Student* mass, int dlina){
     string line;
-    ifstream in("sortirov/prob.txt");
+    ifstream in(nazv_file);
     int i = 0;
     if (in.is_open()) {
         while (getline(in, line)) {
@@ -35,7 +35,7 @@ void get_massiv(Student* mass, int dlina){
 
 void otpr_to_file(Student* mass, int dlina){
     ofstream outt;
-    outt.open("sortirov/otv.txt");
+    outt.open("/home/misha/Desktop/otv.txt");
     string nm;
     string gr;
     string bl;

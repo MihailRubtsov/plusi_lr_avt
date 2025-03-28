@@ -29,7 +29,7 @@ int dlin_file(string name_f) {
 int mainn(string name_file, int vibb, int vib_k, int kk) {
     int dlin = dlin_file(name_file);
     Student* arr = new Student[dlin];
-    get_massiv(arr, dlin);
+    get_massiv(name_file, arr, dlin);
     
 
     chrono::time_point<chrono::high_resolution_clock> start, end;
