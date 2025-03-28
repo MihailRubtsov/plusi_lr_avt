@@ -1,5 +1,5 @@
-/home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter.dir
-/home/misha/CNPZD/prob_pro/build/CMakeFiles/edit_cache.dir
-/home/misha/CNPZD/prob_pro/build/CMakeFiles/rebuild_cache.dir
-/home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter_autogen_timestamp_deps.dir
-/home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter_autogen.dir
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter.dir
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/edit_cache.dir
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/rebuild_cache.dir
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter_autogen_timestamp_deps.dir
+/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter_autogen.dir

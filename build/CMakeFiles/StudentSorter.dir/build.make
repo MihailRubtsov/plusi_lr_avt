@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/misha/CNPZD/prob_pro
+CMAKE_SOURCE_DIR = /home/misha/CNPZD/plusi_lr_avt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/misha/CNPZD/prob_pro/build
+CMAKE_BINARY_DIR = /home/misha/CNPZD/plusi_lr_avt/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/StudentSorter.dir/depend.make
@@ -72,9 +72,9 @@ include CMakeFiles/StudentSorter.dir/flags.make
 StudentSorter_autogen/timestamp: /usr/lib/qt6/moc
 StudentSorter_autogen/timestamp: /usr/lib/qt6/uic
 StudentSorter_autogen/timestamp: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target StudentSorter"
-	/usr/bin/cmake -E cmake_autogen /home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target StudentSorter"
+	/usr/bin/cmake -E cmake_autogen /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/timestamp
 
 CMakeFiles/StudentSorter.dir/codegen:
 .PHONY : CMakeFiles/StudentSorter.dir/codegen
@@ -82,170 +82,170 @@ CMakeFiles/StudentSorter.dir/codegen:
 CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
 CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o: StudentSorter_autogen/mocs_compilation.cpp
 CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o -MF CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o -c /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o -MF CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/mocs_compilation.cpp
 
 CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/mocs_compilation.cpp > CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/mocs_compilation.cpp > CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/mocs_compilation.cpp -o CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/mocs_compilation.cpp -o CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/StudentSorter.dir/src/main.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/src/main.cpp.o: /home/misha/CNPZD/prob_pro/src/main.cpp
+CMakeFiles/StudentSorter.dir/src/main.cpp.o: /home/misha/CNPZD/plusi_lr_avt/src/main.cpp
 CMakeFiles/StudentSorter.dir/src/main.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StudentSorter.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/src/main.cpp.o -MF CMakeFiles/StudentSorter.dir/src/main.cpp.o.d -o CMakeFiles/StudentSorter.dir/src/main.cpp.o -c /home/misha/CNPZD/prob_pro/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StudentSorter.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/src/main.cpp.o -MF CMakeFiles/StudentSorter.dir/src/main.cpp.o.d -o CMakeFiles/StudentSorter.dir/src/main.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/src/main.cpp
 
 CMakeFiles/StudentSorter.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/src/main.cpp > CMakeFiles/StudentSorter.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/src/main.cpp > CMakeFiles/StudentSorter.dir/src/main.cpp.i
 
 CMakeFiles/StudentSorter.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/src/main.cpp -o CMakeFiles/StudentSorter.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/src/main.cpp -o CMakeFiles/StudentSorter.dir/src/main.cpp.s
 
 CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: /home/misha/CNPZD/prob_pro/src/mainwindow.cpp
+CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: /home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp
 CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o -MF CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o.d -o CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o -c /home/misha/CNPZD/prob_pro/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o -MF CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o.d -o CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp
 
 CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/src/mainwindow.cpp > CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp > CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.i
 
 CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/src/mainwindow.cpp -o CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp -o CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.s
 
 CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o: /home/misha/CNPZD/prob_pro/src/sortwindow.cpp
+CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o: /home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp
 CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o -MF CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o.d -o CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o -c /home/misha/CNPZD/prob_pro/src/sortwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o -MF CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o.d -o CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp
 
 CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/src/sortwindow.cpp > CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp > CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.i
 
 CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/src/sortwindow.cpp -o CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp -o CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.s
 
 CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o: /home/misha/CNPZD/prob_pro/src/fileprocessor.cpp
+CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o: /home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp
 CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o -MF CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o.d -o CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o -c /home/misha/CNPZD/prob_pro/src/fileprocessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o -MF CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o.d -o CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp
 
 CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/src/fileprocessor.cpp > CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp > CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.i
 
 CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/src/fileprocessor.cpp -o CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp -o CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.s
 
 CMakeFiles/StudentSorter.dir/work_with_files.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/work_with_files.cpp.o: /home/misha/CNPZD/prob_pro/work_with_files.cpp
+CMakeFiles/StudentSorter.dir/work_with_files.cpp.o: /home/misha/CNPZD/plusi_lr_avt/work_with_files.cpp
 CMakeFiles/StudentSorter.dir/work_with_files.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/StudentSorter.dir/work_with_files.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/work_with_files.cpp.o -MF CMakeFiles/StudentSorter.dir/work_with_files.cpp.o.d -o CMakeFiles/StudentSorter.dir/work_with_files.cpp.o -c /home/misha/CNPZD/prob_pro/work_with_files.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/StudentSorter.dir/work_with_files.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/work_with_files.cpp.o -MF CMakeFiles/StudentSorter.dir/work_with_files.cpp.o.d -o CMakeFiles/StudentSorter.dir/work_with_files.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/work_with_files.cpp
 
 CMakeFiles/StudentSorter.dir/work_with_files.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/work_with_files.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/work_with_files.cpp > CMakeFiles/StudentSorter.dir/work_with_files.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/work_with_files.cpp > CMakeFiles/StudentSorter.dir/work_with_files.cpp.i
 
 CMakeFiles/StudentSorter.dir/work_with_files.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/work_with_files.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/work_with_files.cpp -o CMakeFiles/StudentSorter.dir/work_with_files.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/work_with_files.cpp -o CMakeFiles/StudentSorter.dir/work_with_files.cpp.s
 
 CMakeFiles/StudentSorter.dir/add_to_file.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/add_to_file.cpp.o: /home/misha/CNPZD/prob_pro/add_to_file.cpp
+CMakeFiles/StudentSorter.dir/add_to_file.cpp.o: /home/misha/CNPZD/plusi_lr_avt/add_to_file.cpp
 CMakeFiles/StudentSorter.dir/add_to_file.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/StudentSorter.dir/add_to_file.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/add_to_file.cpp.o -MF CMakeFiles/StudentSorter.dir/add_to_file.cpp.o.d -o CMakeFiles/StudentSorter.dir/add_to_file.cpp.o -c /home/misha/CNPZD/prob_pro/add_to_file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/StudentSorter.dir/add_to_file.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/add_to_file.cpp.o -MF CMakeFiles/StudentSorter.dir/add_to_file.cpp.o.d -o CMakeFiles/StudentSorter.dir/add_to_file.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/add_to_file.cpp
 
 CMakeFiles/StudentSorter.dir/add_to_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/add_to_file.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/add_to_file.cpp > CMakeFiles/StudentSorter.dir/add_to_file.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/add_to_file.cpp > CMakeFiles/StudentSorter.dir/add_to_file.cpp.i
 
 CMakeFiles/StudentSorter.dir/add_to_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/add_to_file.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/add_to_file.cpp -o CMakeFiles/StudentSorter.dir/add_to_file.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/add_to_file.cpp -o CMakeFiles/StudentSorter.dir/add_to_file.cpp.s
 
 CMakeFiles/StudentSorter.dir/file_g_p.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/file_g_p.cpp.o: /home/misha/CNPZD/prob_pro/file_g_p.cpp
+CMakeFiles/StudentSorter.dir/file_g_p.cpp.o: /home/misha/CNPZD/plusi_lr_avt/file_g_p.cpp
 CMakeFiles/StudentSorter.dir/file_g_p.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/StudentSorter.dir/file_g_p.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/file_g_p.cpp.o -MF CMakeFiles/StudentSorter.dir/file_g_p.cpp.o.d -o CMakeFiles/StudentSorter.dir/file_g_p.cpp.o -c /home/misha/CNPZD/prob_pro/file_g_p.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/StudentSorter.dir/file_g_p.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/file_g_p.cpp.o -MF CMakeFiles/StudentSorter.dir/file_g_p.cpp.o.d -o CMakeFiles/StudentSorter.dir/file_g_p.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/file_g_p.cpp
 
 CMakeFiles/StudentSorter.dir/file_g_p.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/file_g_p.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/file_g_p.cpp > CMakeFiles/StudentSorter.dir/file_g_p.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/file_g_p.cpp > CMakeFiles/StudentSorter.dir/file_g_p.cpp.i
 
 CMakeFiles/StudentSorter.dir/file_g_p.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/file_g_p.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/file_g_p.cpp -o CMakeFiles/StudentSorter.dir/file_g_p.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/file_g_p.cpp -o CMakeFiles/StudentSorter.dir/file_g_p.cpp.s
 
 CMakeFiles/StudentSorter.dir/Student.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/Student.cpp.o: /home/misha/CNPZD/prob_pro/Student.cpp
+CMakeFiles/StudentSorter.dir/Student.cpp.o: /home/misha/CNPZD/plusi_lr_avt/Student.cpp
 CMakeFiles/StudentSorter.dir/Student.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/StudentSorter.dir/Student.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/Student.cpp.o -MF CMakeFiles/StudentSorter.dir/Student.cpp.o.d -o CMakeFiles/StudentSorter.dir/Student.cpp.o -c /home/misha/CNPZD/prob_pro/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/StudentSorter.dir/Student.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/Student.cpp.o -MF CMakeFiles/StudentSorter.dir/Student.cpp.o.d -o CMakeFiles/StudentSorter.dir/Student.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/Student.cpp
 
 CMakeFiles/StudentSorter.dir/Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/Student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/Student.cpp > CMakeFiles/StudentSorter.dir/Student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/Student.cpp > CMakeFiles/StudentSorter.dir/Student.cpp.i
 
 CMakeFiles/StudentSorter.dir/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/Student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/Student.cpp -o CMakeFiles/StudentSorter.dir/Student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/Student.cpp -o CMakeFiles/StudentSorter.dir/Student.cpp.s
 
 CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o: /home/misha/CNPZD/prob_pro/sortirov/sich_sort.cpp
+CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o: /home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp
 CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o -MF CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o.d -o CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o -c /home/misha/CNPZD/prob_pro/sortirov/sich_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o -MF CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o.d -o CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp
 
 CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/sortirov/sich_sort.cpp > CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp > CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.i
 
 CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/sortirov/sich_sort.cpp -o CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp -o CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.s
 
 CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o: /home/misha/CNPZD/prob_pro/sortirov/sort_b.cpp
+CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o: /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.cpp
 CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o -MF CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o.d -o CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o -c /home/misha/CNPZD/prob_pro/sortirov/sort_b.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o -MF CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o.d -o CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.cpp
 
 CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/sortirov/sort_b.cpp > CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.cpp > CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.i
 
 CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/sortirov/sort_b.cpp -o CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.cpp -o CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.s
 
 CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o: CMakeFiles/StudentSorter.dir/flags.make
-CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o: /home/misha/CNPZD/prob_pro/sortirov/sort_v.cpp
+CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o: /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp
 CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o: CMakeFiles/StudentSorter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o -MF CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o.d -o CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o -c /home/misha/CNPZD/prob_pro/sortirov/sort_v.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o -MF CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o.d -o CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o -c /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp
 
 CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/prob_pro/sortirov/sort_v.cpp > CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp > CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.i
 
 CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/prob_pro/sortirov/sort_v.cpp -o CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp -o CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.s
 
 # Object files for target StudentSorter
 StudentSorter_OBJECTS = \
@@ -285,7 +285,7 @@ StudentSorter: /usr/lib/libGLX.so
 StudentSorter: /usr/lib/libOpenGL.so
 StudentSorter: /usr/lib/libQt6Core.so.6.8.2
 StudentSorter: CMakeFiles/StudentSorter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable StudentSorter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable StudentSorter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StudentSorter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +297,6 @@ CMakeFiles/StudentSorter.dir/clean:
 .PHONY : CMakeFiles/StudentSorter.dir/clean
 
 CMakeFiles/StudentSorter.dir/depend: StudentSorter_autogen/timestamp
-	cd /home/misha/CNPZD/prob_pro/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/misha/CNPZD/prob_pro /home/misha/CNPZD/prob_pro /home/misha/CNPZD/prob_pro/build /home/misha/CNPZD/prob_pro/build /home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/misha/CNPZD/plusi_lr_avt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/misha/CNPZD/plusi_lr_avt /home/misha/CNPZD/plusi_lr_avt /home/misha/CNPZD/plusi_lr_avt/build /home/misha/CNPZD/plusi_lr_avt/build /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/StudentSorter.dir/depend
 

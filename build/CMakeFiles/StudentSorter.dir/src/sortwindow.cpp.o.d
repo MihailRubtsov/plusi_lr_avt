@@ -1,6 +1,7 @@
 CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o: \
- /home/misha/CNPZD/prob_pro/src/sortwindow.cpp /usr/include/stdc-predef.h \
- /home/misha/CNPZD/prob_pro/include/sortwindow.h \
+ /home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp \
+ /usr/include/stdc-predef.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/sortwindow.h \
  /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtCore/qglobal.h \
@@ -386,7 +387,7 @@ CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o: \
  /usr/include/c++/14.2.1/bits/fs_ops.h \
  /usr/include/qt6/QtCore/qdatetime.h /usr/include/qt6/QtCore/qcalendar.h \
  /usr/include/qt6/QtCore/qtimezone.h \
- /home/misha/CNPZD/prob_pro/include/fileprocessor.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/fileprocessor.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /home/misha/CNPZD/prob_pro/src/../work_with_files.h \
- /home/misha/CNPZD/prob_pro/src/../Student.h
+ /home/misha/CNPZD/plusi_lr_avt/src/../work_with_files.h \
+ /home/misha/CNPZD/plusi_lr_avt/src/../Student.h

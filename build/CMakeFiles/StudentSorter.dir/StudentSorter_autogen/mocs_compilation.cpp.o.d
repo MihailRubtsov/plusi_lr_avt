@@ -1,8 +1,8 @@
 CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o: \
- /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/mocs_compilation.cpp \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/6YEA5652QU/moc_mainwindow.cpp \
- /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/6YEA5652QU/../../../include/mainwindow.h \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/moc_mainwindow.cpp \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/../../../include/mainwindow.h \
  /usr/include/qt6/QtWidgets/QMainWindow \
  /usr/include/qt6/QtWidgets/qmainwindow.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -352,8 +352,8 @@ CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
  /usr/include/qt6/QtGui/qtextoption.h \
  /usr/include/qt6/QtCore/qtmochelpers.h \
- /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/6YEA5652QU/moc_sortwindow.cpp \
- /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/6YEA5652QU/../../../include/sortwindow.h \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/moc_sortwindow.cpp \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/../../../include/sortwindow.h \
  /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
  /usr/include/qt6/QtWidgets/QComboBox \
  /usr/include/qt6/QtWidgets/qcombobox.h \

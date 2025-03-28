@@ -1,5 +1,5 @@
 CMakeFiles/StudentSorter.dir/work_with_files.cpp.o: \
- /home/misha/CNPZD/prob_pro/work_with_files.cpp \
+ /home/misha/CNPZD/plusi_lr_avt/work_with_files.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -153,12 +153,12 @@ CMakeFiles/StudentSorter.dir/work_with_files.cpp.o: \
  /usr/include/c++/14.2.1/bits/stl_vector.h \
  /usr/include/c++/14.2.1/bits/stl_bvector.h \
  /usr/include/c++/14.2.1/bits/vector.tcc \
- /home/misha/CNPZD/prob_pro/Student.h \
- /home/misha/CNPZD/prob_pro/sortirov/sort_v.h \
- /home/misha/CNPZD/prob_pro/sortirov/../Student.h \
- /home/misha/CNPZD/prob_pro/sortirov/sort_b.h \
- /home/misha/CNPZD/prob_pro/file_g_p.h \
- /home/misha/CNPZD/prob_pro/sortirov/sich_sort.h \
+ /home/misha/CNPZD/plusi_lr_avt/Student.h \
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.h \
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/../Student.h \
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.h \
+ /home/misha/CNPZD/plusi_lr_avt/file_g_p.h \
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.h \
  /usr/include/c++/14.2.1/chrono /usr/include/c++/14.2.1/bits/chrono.h \
  /usr/include/c++/14.2.1/ratio /usr/include/c++/14.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \

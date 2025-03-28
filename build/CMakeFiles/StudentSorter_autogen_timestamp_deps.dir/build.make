@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/misha/CNPZD/prob_pro
+CMAKE_SOURCE_DIR = /home/misha/CNPZD/plusi_lr_avt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/misha/CNPZD/prob_pro/build
+CMAKE_BINARY_DIR = /home/misha/CNPZD/plusi_lr_avt/build
 
 # Utility rule file for StudentSorter_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/depend:
-	cd /home/misha/CNPZD/prob_pro/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/misha/CNPZD/prob_pro /home/misha/CNPZD/prob_pro /home/misha/CNPZD/prob_pro/build /home/misha/CNPZD/prob_pro/build /home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/misha/CNPZD/plusi_lr_avt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/misha/CNPZD/plusi_lr_avt /home/misha/CNPZD/plusi_lr_avt /home/misha/CNPZD/plusi_lr_avt/build /home/misha/CNPZD/plusi_lr_avt/build /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/depend
 

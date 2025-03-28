@@ -1,27 +1,27 @@
 StudentSorter_autogen/timestamp: \
-	/home/misha/CNPZD/prob_pro/CMakeLists.txt \
-	/home/misha/CNPZD/prob_pro/Student.cpp \
-	/home/misha/CNPZD/prob_pro/Student.h \
-	/home/misha/CNPZD/prob_pro/add_to_file.cpp \
-	/home/misha/CNPZD/prob_pro/add_to_file.h \
-	/home/misha/CNPZD/prob_pro/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
-	/home/misha/CNPZD/prob_pro/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
-	/home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/moc_predefs.h \
-	/home/misha/CNPZD/prob_pro/file_g_p.cpp \
-	/home/misha/CNPZD/prob_pro/file_g_p.h \
-	/home/misha/CNPZD/prob_pro/include/common.h \
-	/home/misha/CNPZD/prob_pro/include/fileprocessor.h \
-	/home/misha/CNPZD/prob_pro/include/mainwindow.h \
-	/home/misha/CNPZD/prob_pro/include/sortwindow.h \
-	/home/misha/CNPZD/prob_pro/sortirov/sich_sort.h \
-	/home/misha/CNPZD/prob_pro/sortirov/sort_b.h \
-	/home/misha/CNPZD/prob_pro/sortirov/sort_v.h \
-	/home/misha/CNPZD/prob_pro/src/fileprocessor.cpp \
-	/home/misha/CNPZD/prob_pro/src/main.cpp \
-	/home/misha/CNPZD/prob_pro/src/mainwindow.cpp \
-	/home/misha/CNPZD/prob_pro/src/sortwindow.cpp \
-	/home/misha/CNPZD/prob_pro/work_with_files.cpp \
-	/home/misha/CNPZD/prob_pro/work_with_files.h \
+	/home/misha/CNPZD/plusi_lr_avt/CMakeLists.txt \
+	/home/misha/CNPZD/plusi_lr_avt/Student.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/Student.h \
+	/home/misha/CNPZD/plusi_lr_avt/add_to_file.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/add_to_file.h \
+	/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
+	/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
+	/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/moc_predefs.h \
+	/home/misha/CNPZD/plusi_lr_avt/file_g_p.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/file_g_p.h \
+	/home/misha/CNPZD/plusi_lr_avt/include/common.h \
+	/home/misha/CNPZD/plusi_lr_avt/include/fileprocessor.h \
+	/home/misha/CNPZD/plusi_lr_avt/include/mainwindow.h \
+	/home/misha/CNPZD/plusi_lr_avt/include/sortwindow.h \
+	/home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.h \
+	/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.h \
+	/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.h \
+	/home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/src/main.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/work_with_files.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/work_with_files.h \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/bitsperlong.h \
 	/usr/include/asm-generic/errno-base.h \

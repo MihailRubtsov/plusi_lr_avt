@@ -1,7 +1,8 @@
 CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o: \
- /home/misha/CNPZD/prob_pro/sortirov/sort_v.cpp \
- /usr/include/stdc-predef.h /home/misha/CNPZD/prob_pro/sortirov/sort_v.h \
- /home/misha/CNPZD/prob_pro/sortirov/../Student.h \
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp \
+ /usr/include/stdc-predef.h \
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.h \
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/../Student.h \
  /usr/include/c++/14.2.1/string \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/home/misha/CNPZD/prob_pro/build/StudentSorter_autogen",
-	"CMAKE_BINARY_DIR" : "/home/misha/CNPZD/prob_pro/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/misha/CNPZD/prob_pro/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/misha/CNPZD/prob_pro",
+	"BUILD_DIR" : "/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen",
+	"CMAKE_BINARY_DIR" : "/home/misha/CNPZD/plusi_lr_avt/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/misha/CNPZD/plusi_lr_avt/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/misha/CNPZD/plusi_lr_avt",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/misha/CNPZD/prob_pro/CMakeLists.txt",
-		"/home/misha/CNPZD/prob_pro/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
+		"/home/misha/CNPZD/plusi_lr_avt/CMakeLists.txt",
+		"/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake",
-		"/home/misha/CNPZD/prob_pro/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -420,67 +420,67 @@
 		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake",
 		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/misha/CNPZD/prob_pro",
+	"CMAKE_SOURCE_DIR" : "/home/misha/CNPZD/plusi_lr_avt",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/deps",
+	"DEP_FILE" : "/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "StudentSorter_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/misha/CNPZD/prob_pro/Student.h",
+			"/home/misha/CNPZD/plusi_lr_avt/Student.h",
 			"MU",
 			"EWIEGA46WW/moc_Student.cpp",
 			null
 		],
 		[
-			"/home/misha/CNPZD/prob_pro/add_to_file.h",
+			"/home/misha/CNPZD/plusi_lr_avt/add_to_file.h",
 			"MU",
 			"EWIEGA46WW/moc_add_to_file.cpp",
 			null
 		],
 		[
-			"/home/misha/CNPZD/prob_pro/file_g_p.h",
+			"/home/misha/CNPZD/plusi_lr_avt/file_g_p.h",
 			"MU",
 			"EWIEGA46WW/moc_file_g_p.cpp",
 			null
 		],
 		[
-			"/home/misha/CNPZD/prob_pro/include/common.h",
+			"/home/misha/CNPZD/plusi_lr_avt/include/common.h",
 			"MU",
 			"6YEA5652QU/moc_common.cpp",
 			null
 		],
 		[
-			"/home/misha/CNPZD/prob_pro/include/fileprocessor.h",
+			"/home/misha/CNPZD/plusi_lr_avt/include/fileprocessor.h",
 			"MU",
 			"6YEA5652QU/moc_fileprocessor.cpp",
 			null
 		],
 		[
-			"/home/misha/CNPZD/prob_pro/include/mainwindow.h",
+			"/home/misha/CNPZD/plusi_lr_avt/include/mainwindow.h",
 			"MU",
 			"6YEA5652QU/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"/home/misha/CNPZD/prob_pro/include/sortwindow.h",
+			"/home/misha/CNPZD/plusi_lr_avt/include/sortwindow.h",
 			"MU",
 			"6YEA5652QU/moc_sortwindow.cpp",
 			null
 		],
-		[ "/home/misha/CNPZD/prob_pro/sortirov/sich_sort.h", "mU", "", null ],
-		[ "/home/misha/CNPZD/prob_pro/sortirov/sort_b.h", "mU", "", null ],
-		[ "/home/misha/CNPZD/prob_pro/sortirov/sort_v.h", "mU", "", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.h", "mU", "", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.h", "mU", "", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.h", "mU", "", null ],
 		[
-			"/home/misha/CNPZD/prob_pro/work_with_files.h",
+			"/home/misha/CNPZD/plusi_lr_avt/work_with_files.h",
 			"MU",
 			"EWIEGA46WW/moc_work_with_files.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -491,8 +491,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/misha/CNPZD/prob_pro/include",
-		"/home/misha/CNPZD/prob_pro/sortirov",
+		"/home/misha/CNPZD/plusi_lr_avt/include",
+		"/home/misha/CNPZD/plusi_lr_avt/sortirov",
 		"/usr/include/qt6/QtCore",
 		"/usr/include/qt6",
 		"/usr/lib/qt6/mkspecs/linux-g++",
@@ -526,35 +526,35 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/misha/CNPZD/prob_pro/sortirov/sich_sort.cpp",
-		"/home/misha/CNPZD/prob_pro/sortirov/sort_b.cpp",
-		"/home/misha/CNPZD/prob_pro/sortirov/sort_v.cpp"
+		"/home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp",
+		"/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.cpp",
+		"/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "/home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
-	"SETTINGS_FILE" : "/home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/misha/CNPZD/prob_pro/Student.cpp", "MU", null ],
-		[ "/home/misha/CNPZD/prob_pro/add_to_file.cpp", "MU", null ],
-		[ "/home/misha/CNPZD/prob_pro/file_g_p.cpp", "MU", null ],
-		[ "/home/misha/CNPZD/prob_pro/sortirov/sich_sort.cpp", "mU", null ],
-		[ "/home/misha/CNPZD/prob_pro/sortirov/sort_b.cpp", "mU", null ],
-		[ "/home/misha/CNPZD/prob_pro/sortirov/sort_v.cpp", "mU", null ],
-		[ "/home/misha/CNPZD/prob_pro/src/fileprocessor.cpp", "MU", null ],
-		[ "/home/misha/CNPZD/prob_pro/src/main.cpp", "MU", null ],
-		[ "/home/misha/CNPZD/prob_pro/src/mainwindow.cpp", "MU", null ],
-		[ "/home/misha/CNPZD/prob_pro/src/sortwindow.cpp", "MU", null ],
-		[ "/home/misha/CNPZD/prob_pro/work_with_files.cpp", "MU", null ]
+		[ "/home/misha/CNPZD/plusi_lr_avt/Student.cpp", "MU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/add_to_file.cpp", "MU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/file_g_p.cpp", "MU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp", "mU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.cpp", "mU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp", "mU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp", "MU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/src/main.cpp", "MU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp", "MU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp", "MU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/work_with_files.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

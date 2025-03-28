@@ -1,5 +1,5 @@
 CMakeFiles/StudentSorter.dir/file_g_p.cpp.o: \
- /home/misha/CNPZD/prob_pro/file_g_p.cpp /usr/include/stdc-predef.h \
+ /home/misha/CNPZD/plusi_lr_avt/file_g_p.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -148,7 +148,7 @@ CMakeFiles/StudentSorter.dir/file_g_p.cpp.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/14.2.1/bits/fstream.tcc \
- /home/misha/CNPZD/prob_pro/Student.h /usr/include/c++/14.2.1/vector \
+ /home/misha/CNPZD/plusi_lr_avt/Student.h /usr/include/c++/14.2.1/vector \
  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/14.2.1/bits/stl_vector.h \
  /usr/include/c++/14.2.1/bits/stl_bvector.h \

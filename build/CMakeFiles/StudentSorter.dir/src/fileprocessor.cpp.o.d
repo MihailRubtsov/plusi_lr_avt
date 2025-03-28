@@ -1,7 +1,7 @@
 CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o: \
- /home/misha/CNPZD/prob_pro/src/fileprocessor.cpp \
+ /home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp \
  /usr/include/stdc-predef.h \
- /home/misha/CNPZD/prob_pro/include/fileprocessor.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/fileprocessor.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
  /usr/include/qt6/QtCore/qchar.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/14.2.1/type_traits \
@@ -339,5 +339,5 @@ CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o: \
  /usr/include/qt6/QtCore/qshareddata_impl.h \
  /usr/include/qt6/QtCore/qset.h /usr/include/qt6/QtCore/qhash.h \
  /usr/include/qt6/QtCore/qvarlengtharray.h \
- /home/misha/CNPZD/prob_pro/src/../work_with_files.h \
- /home/misha/CNPZD/prob_pro/src/../Student.h
+ /home/misha/CNPZD/plusi_lr_avt/src/../work_with_files.h \
+ /home/misha/CNPZD/plusi_lr_avt/src/../Student.h

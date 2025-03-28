@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/misha/CNPZD/prob_pro
+CMAKE_SOURCE_DIR = /home/misha/CNPZD/plusi_lr_avt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/misha/CNPZD/prob_pro/build
+CMAKE_BINARY_DIR = /home/misha/CNPZD/plusi_lr_avt/build
 
 # Utility rule file for StudentSorter_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/StudentSorter_autogen: StudentSorter_autogen/timestamp
 StudentSorter_autogen/timestamp: /usr/lib/qt6/moc
 StudentSorter_autogen/timestamp: /usr/lib/qt6/uic
 StudentSorter_autogen/timestamp: CMakeFiles/StudentSorter_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/misha/CNPZD/prob_pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target StudentSorter"
-	/usr/bin/cmake -E cmake_autogen /home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target StudentSorter"
+	/usr/bin/cmake -E cmake_autogen /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/timestamp
 
 CMakeFiles/StudentSorter_autogen.dir/codegen:
 .PHONY : CMakeFiles/StudentSorter_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/StudentSorter_autogen.dir/clean:
 .PHONY : CMakeFiles/StudentSorter_autogen.dir/clean
 
 CMakeFiles/StudentSorter_autogen.dir/depend:
-	cd /home/misha/CNPZD/prob_pro/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/misha/CNPZD/prob_pro /home/misha/CNPZD/prob_pro /home/misha/CNPZD/prob_pro/build /home/misha/CNPZD/prob_pro/build /home/misha/CNPZD/prob_pro/build/CMakeFiles/StudentSorter_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/misha/CNPZD/plusi_lr_avt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/misha/CNPZD/plusi_lr_avt /home/misha/CNPZD/plusi_lr_avt /home/misha/CNPZD/plusi_lr_avt/build /home/misha/CNPZD/plusi_lr_avt/build /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles/StudentSorter_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/StudentSorter_autogen.dir/depend
 

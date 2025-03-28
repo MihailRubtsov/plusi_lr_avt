@@ -1,5 +1,5 @@
 CMakeFiles/StudentSorter.dir/src/main.cpp.o: \
- /home/misha/CNPZD/prob_pro/src/main.cpp /usr/include/stdc-predef.h \
+ /home/misha/CNPZD/plusi_lr_avt/src/main.cpp /usr/include/stdc-predef.h \
  /usr/include/qt6/QtWidgets/QApplication \
  /usr/include/qt6/QtWidgets/qapplication.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -335,7 +335,7 @@ CMakeFiles/StudentSorter.dir/src/main.cpp.o: \
  /usr/include/qt6/QtGui/qinputmethod.h /usr/include/qt6/QtCore/qlocale.h \
  /usr/include/qt6/QtCore/qvariant.h \
  /usr/include/qt6/QtGui/qguiapplication_platform.h \
- /home/misha/CNPZD/prob_pro/include/mainwindow.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/mainwindow.h \
  /usr/include/qt6/QtWidgets/QMainWindow \
  /usr/include/qt6/QtWidgets/qmainwindow.h \
  /usr/include/qt6/QtWidgets/qwidget.h /usr/include/qt6/QtGui/qaction.h \

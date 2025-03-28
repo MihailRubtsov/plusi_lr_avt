@@ -1,6 +1,6 @@
 CMakeFiles/StudentSorter.dir/add_to_file.cpp.o: \
- /home/misha/CNPZD/prob_pro/add_to_file.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/14.2.1/string \
+ /home/misha/CNPZD/plusi_lr_avt/add_to_file.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/14.2.1/string \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \

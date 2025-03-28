@@ -1,5 +1,5 @@
 CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o: \
- /home/misha/CNPZD/prob_pro/sortirov/sich_sort.cpp \
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -152,5 +152,5 @@ CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o: \
  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
  /usr/include/c++/14.2.1/pstl/execution_defs.h \
- /home/misha/CNPZD/prob_pro/sortirov/sich_sort.h \
- /home/misha/CNPZD/prob_pro/sortirov/../Student.h
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.h \
+ /home/misha/CNPZD/plusi_lr_avt/sortirov/../Student.h

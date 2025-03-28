@@ -1,5 +1,5 @@
-/home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/6YEA5652QU/moc_mainwindow.cpp: /home/misha/CNPZD/prob_pro/include/mainwindow.h \
-  /home/misha/CNPZD/prob_pro/build/StudentSorter_autogen/moc_predefs.h \
+/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/moc_mainwindow.cpp: /home/misha/CNPZD/plusi_lr_avt/include/mainwindow.h \
+  /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

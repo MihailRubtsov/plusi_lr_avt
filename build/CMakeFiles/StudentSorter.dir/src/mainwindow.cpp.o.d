@@ -1,6 +1,7 @@
 CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: \
- /home/misha/CNPZD/prob_pro/src/mainwindow.cpp /usr/include/stdc-predef.h \
- /home/misha/CNPZD/prob_pro/include/mainwindow.h \
+ /home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp \
+ /usr/include/stdc-predef.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/mainwindow.h \
  /usr/include/qt6/QtWidgets/QMainWindow \
  /usr/include/qt6/QtWidgets/qmainwindow.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -346,7 +347,7 @@ CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qlayoutitem.h \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qgridlayout.h \
- /home/misha/CNPZD/prob_pro/include/sortwindow.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/sortwindow.h \
  /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
  /usr/include/qt6/QtWidgets/QComboBox \
  /usr/include/qt6/QtWidgets/qcombobox.h \
@@ -392,4 +393,7 @@ CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: \
  /usr/include/c++/14.2.1/bits/fs_dir.h \
  /usr/include/c++/14.2.1/bits/fs_ops.h \
  /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
- /usr/include/qt6/QtWidgets/qdialog.h
+ /usr/include/qt6/QtWidgets/qdialog.h /usr/include/qt6/QtGui/QPixmap \
+ /usr/include/qt6/QtGui/qpixmap.h /usr/include/qt6/QtWidgets/QMessageBox \
+ /usr/include/qt6/QtWidgets/qmessagebox.h \
+ /usr/include/qt6/QtWidgets/qdialogbuttonbox.h
