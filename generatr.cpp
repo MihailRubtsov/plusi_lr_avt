@@ -6,7 +6,8 @@ using namespace std;
 
 
 
-int main(){
+
+void gener(int kol){
     string imia[10] = {"Маша", "Миша", "Рома", "Олег", "Сева", "Ян", "Федя", "Юра", "Света", "Лена"};
     string grop[5] = {"ИДБ-1","ИДБ-2","ИДБ-3","ИДБ-4","ИДБ-5"};
     ofstream out;
@@ -15,7 +16,7 @@ int main(){
     int tr;
     out.open("sortirov/prob.txt");
     if (out.is_open()){
-        for (int i = 0; i < 10000 ; i ++){
+        for (int i = 0; i < kol ; i ++){
             pr = rand() % 10;
             vt = rand() % 5;
             tr = rand() % 100 + 1;
@@ -25,5 +26,10 @@ int main(){
         
     }
     
+}
+int main(){
+    int koll;
+    cin >> koll;
+    gener(koll);
     return 0;
 }
