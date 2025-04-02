@@ -84,8 +84,8 @@ clean: CMakeFiles/StudentSorter_autogen.dir/clean
 # Target rules for target CMakeFiles/StudentSorter.dir
 
 # All Build rule for target.
-CMakeFiles/StudentSorter.dir/all: CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/all
 CMakeFiles/StudentSorter.dir/all: CMakeFiles/StudentSorter_autogen.dir/all
+CMakeFiles/StudentSorter.dir/all: CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target StudentSorter"

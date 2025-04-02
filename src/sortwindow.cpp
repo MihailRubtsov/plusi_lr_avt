@@ -15,7 +15,7 @@ SortWindow::SortWindow(QWidget *parent)
     sortTypeCombo = new QComboBox(this);
     sortTypeCombo->addItem("Сортировка пузырьком");
     sortTypeCombo->addItem("Сортировка вставками");
-    sortTypeCombo->addItem("Сортировка std::sort");
+    sortTypeCombo->addItem("Сортировка sort");
     
     dataTypeCombo = new QComboBox(this);
     dataTypeCombo->addItem("По баллам");

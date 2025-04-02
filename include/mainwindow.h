@@ -19,13 +19,15 @@ public:
 private slots:
     void selectFile();
     void openSortWindow();
-    void showPoshalka();  // Новый слот для кнопки "Посхалко"
+    void showPoshalka();
+    void open_generator();  // Новый слот для кнопки "Посхалко"
 
 private:
     // Виджеты
     QPushButton *selectFileButton;
     QPushButton *sortButton;
     QPushButton *poshalka;
+    QPushButton *gener;
     //QPushButton *gener;
     QLabel *filePathLabel;
     QVBoxLayout *layout;

@@ -18,7 +18,7 @@ MainWindow::MainWindow(QWidget *parent)
     selectFileButton = new QPushButton("Выбрать файл", centralWidget);
     sortButton = new QPushButton("Настроить сортировку", centralWidget);
     filePathLabel = new QLabel("Файл не выбран", centralWidget);
-    //gener = new QPushButton("Сгенерировать массив", centralWidget);
+    gener = new QPushButton("Генератор массива", centralWidget);
     poshalka = new QPushButton("Посхалко", centralWidget);
     
     // Настройка layout
@@ -26,6 +26,7 @@ MainWindow::MainWindow(QWidget *parent)
     layout->addWidget(filePathLabel);
     layout->addWidget(sortButton);
     layout->addWidget(poshalka);
+    layout->addWidget(gener);
     
     setCentralWidget(centralWidget);
     
@@ -50,7 +51,7 @@ void MainWindow::selectFile()
         filePathLabel->setText(selectedFilePath);
         sortButton->setEnabled(true);
     }
-}
+}   
 
 void MainWindow::openSortWindow()
 {
@@ -61,6 +62,9 @@ void MainWindow::openSortWindow()
     }
     sortWindow->setFilePath(selectedFilePath);
     sortWindow->show();
+}
+void MainWindow::open_generator(){
+    
 }
 
 void MainWindow::showPoshalka()
