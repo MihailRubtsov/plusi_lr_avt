@@ -84,16 +84,16 @@ clean: CMakeFiles/StudentSorter_autogen.dir/clean
 # Target rules for target CMakeFiles/StudentSorter.dir
 
 # All Build rule for target.
-CMakeFiles/StudentSorter.dir/all: CMakeFiles/StudentSorter_autogen.dir/all
 CMakeFiles/StudentSorter.dir/all: CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/all
+CMakeFiles/StudentSorter.dir/all: CMakeFiles/StudentSorter_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target StudentSorter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target StudentSorter"
 .PHONY : CMakeFiles/StudentSorter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StudentSorter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/StudentSorter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles 0
 .PHONY : CMakeFiles/StudentSorter.dir/rule
@@ -105,7 +105,7 @@ StudentSorter: CMakeFiles/StudentSorter.dir/rule
 # codegen rule for target.
 CMakeFiles/StudentSorter.dir/codegen: CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Finished codegen for target StudentSorter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Finished codegen for target StudentSorter"
 .PHONY : CMakeFiles/StudentSorter.dir/codegen
 
 # clean rule for target.
@@ -152,7 +152,7 @@ CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/clean:
 CMakeFiles/StudentSorter_autogen.dir/all: CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter_autogen.dir/build.make CMakeFiles/StudentSorter_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter_autogen.dir/build.make CMakeFiles/StudentSorter_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=15 "Built target StudentSorter_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=17 "Built target StudentSorter_autogen"
 .PHONY : CMakeFiles/StudentSorter_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -169,7 +169,7 @@ StudentSorter_autogen: CMakeFiles/StudentSorter_autogen.dir/rule
 # codegen rule for target.
 CMakeFiles/StudentSorter_autogen.dir/codegen: CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter_autogen.dir/build.make CMakeFiles/StudentSorter_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=15 "Finished codegen for target StudentSorter_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=17 "Finished codegen for target StudentSorter_autogen"
 .PHONY : CMakeFiles/StudentSorter_autogen.dir/codegen
 
 # clean rule for target.

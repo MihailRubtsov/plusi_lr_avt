@@ -1,20 +1,23 @@
-#ifndef GENER_WIN
-#define GENER_WIN
-#include <QMainWindow>
+#ifndef GENERAT_H
+#define GENERAT_H
+#include <QDialog>
+#include <QSpinBox>
 #include <QPushButton>
-#include <QLabel>
 #include <QVBoxLayout>
+#include <QLabel>
 
-class GenerWindow{
+class Generat : public QDialog
+{
     Q_OBJECT
-public:
-    explicit GenerWindow(QWidget *parent = nullptr);
-    ~GenerWindow();
 
-private slots:
-    
+public:
+    explicit Generat(QWidget *parent = nullptr);
+    int getStudentCount() const;
+
+private:
+    QSpinBox *studentCountSpinBox;
+    QPushButton *generateButton;
+    QLabel *infoLabel;
 };
 
-
-
-#endif GENER_WIN
+#endif 

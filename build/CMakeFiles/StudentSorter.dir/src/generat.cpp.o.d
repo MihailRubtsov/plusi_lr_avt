@@ -1,9 +1,8 @@
-CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: \
- /home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp \
+CMakeFiles/StudentSorter.dir/src/generat.cpp.o: \
+ /home/misha/CNPZD/plusi_lr_avt/src/generat.cpp \
  /usr/include/stdc-predef.h \
- /home/misha/CNPZD/plusi_lr_avt/include/mainwindow.h \
- /usr/include/qt6/QtWidgets/QMainWindow \
- /usr/include/qt6/QtWidgets/qmainwindow.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/generat.h \
+ /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/14.2.1/type_traits \
@@ -333,71 +332,22 @@ CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: \
  /usr/include/qt6/QtGui/qfontmetrics.h /usr/include/qt6/QtGui/qfontinfo.h \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
- /usr/include/qt6/QtWidgets/qtabwidget.h \
- /usr/include/qt6/QtWidgets/QPushButton \
+ /usr/include/qt6/QtWidgets/QSpinBox \
+ /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt6/QtGui/qvalidator.h \
+ /usr/include/qt6/QtCore/qregularexpression.h \
+ /usr/include/qt6/QtCore/qlocale.h /usr/include/qt6/QtWidgets/QPushButton \
  /usr/include/qt6/QtWidgets/qpushbutton.h \
  /usr/include/qt6/QtWidgets/qabstractbutton.h \
- /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
- /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qpicture.h \
- /usr/include/qt6/QtCore/qiodevice.h \
- /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
  /usr/include/qt6/QtWidgets/QVBoxLayout \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qlayout.h \
  /usr/include/qt6/QtWidgets/qlayoutitem.h \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qgridlayout.h \
- /home/misha/CNPZD/plusi_lr_avt/include/generat.h \
- /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
- /usr/include/qt6/QtWidgets/QSpinBox \
- /usr/include/qt6/QtWidgets/qspinbox.h \
- /usr/include/qt6/QtWidgets/qabstractspinbox.h \
- /usr/include/qt6/QtGui/qvalidator.h \
- /usr/include/qt6/QtCore/qregularexpression.h \
- /usr/include/qt6/QtCore/qlocale.h \
- /home/misha/CNPZD/plusi_lr_avt/include/sortwindow.h \
- /usr/include/qt6/QtWidgets/QComboBox \
- /usr/include/qt6/QtWidgets/qcombobox.h \
- /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
- /usr/include/qt6/QtWidgets/qstyleoption.h \
- /usr/include/qt6/QtWidgets/qslider.h \
- /usr/include/qt6/QtWidgets/qabstractslider.h \
- /usr/include/qt6/QtWidgets/qstyle.h /usr/include/qt6/QtWidgets/qtabbar.h \
- /usr/include/qt6/QtWidgets/qrubberband.h \
- /usr/include/qt6/QtCore/qabstractitemmodel.h \
- /usr/include/qt6/QtWidgets/QFileDialog \
- /usr/include/qt6/QtWidgets/qfiledialog.h /usr/include/qt6/QtCore/qdir.h \
- /usr/include/qt6/QtCore/qdirlisting.h \
- /usr/include/qt6/QtCore/qfiledevice.h \
- /usr/include/qt6/QtCore/qdatetime.h /usr/include/qt6/QtCore/qcalendar.h \
- /usr/include/qt6/QtCore/qfile.h /usr/include/c++/14.2.1/filesystem \
- /usr/include/c++/14.2.1/bits/fs_fwd.h \
- /usr/include/c++/14.2.1/bits/fs_path.h /usr/include/c++/14.2.1/locale \
- /usr/include/c++/14.2.1/bits/locale_facets.h \
- /usr/include/c++/14.2.1/cwctype /usr/include/wctype.h \
- /usr/include/bits/wctype-wchar.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
- /usr/include/c++/14.2.1/bits/locale_facets.tcc \
- /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/14.2.1/bits/codecvt.h \
- /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
- /usr/include/c++/14.2.1/bits/locale_conv.h \
- /usr/include/c++/14.2.1/iomanip \
- /usr/include/c++/14.2.1/bits/quoted_string.h \
- /usr/include/c++/14.2.1/sstream /usr/include/c++/14.2.1/istream \
- /usr/include/c++/14.2.1/ios /usr/include/c++/14.2.1/bits/basic_ios.h \
- /usr/include/c++/14.2.1/bits/basic_ios.tcc \
- /usr/include/c++/14.2.1/ostream /usr/include/c++/14.2.1/bits/ostream.tcc \
- /usr/include/c++/14.2.1/bits/istream.tcc \
- /usr/include/c++/14.2.1/bits/sstream.tcc /usr/include/c++/14.2.1/codecvt \
- /usr/include/c++/14.2.1/bits/fs_dir.h \
- /usr/include/c++/14.2.1/bits/fs_ops.h \
- /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
- /usr/include/qt6/QtWidgets/qdialog.h /usr/include/qt6/QtGui/QPixmap \
- /usr/include/qt6/QtGui/qpixmap.h /usr/include/qt6/QtWidgets/QMessageBox \
- /usr/include/qt6/QtWidgets/qmessagebox.h \
- /usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
- /home/misha/CNPZD/plusi_lr_avt/include/generat.h
+ /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
+ /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qpicture.h \
+ /usr/include/qt6/QtCore/qiodevice.h \
+ /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
+ /home/misha/CNPZD/plusi_lr_avt/src/../generatr.h

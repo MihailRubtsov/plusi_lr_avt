@@ -6,11 +6,13 @@
 #include <QDialog>
 #include <QVBoxLayout>
 #include <QMessageBox>
+#include "generat.h"
 
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent), sortWindow(nullptr)
+    : QMainWindow(parent), sortWindow(nullptr), generatWindow(nullptr)
 {
-    resize(250,250);
+    resize(300, 300);
+    
     // Создаем виджеты
     centralWidget = new QWidget(this);
     layout = new QVBoxLayout(centralWidget);
@@ -34,6 +36,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(selectFileButton, &QPushButton::clicked, this, &MainWindow::selectFile);
     connect(sortButton, &QPushButton::clicked, this, &MainWindow::openSortWindow);
     connect(poshalka, &QPushButton::clicked, this, &MainWindow::showPoshalka);
+    connect(gener, &QPushButton::clicked, this, &MainWindow::open_generator);
     
     // Начальные настройки
     sortButton->setEnabled(false);
@@ -42,6 +45,7 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     if (sortWindow) delete sortWindow;
+    if (generatWindow) delete generatWindow;
 }
 
 void MainWindow::selectFile()
@@ -51,7 +55,7 @@ void MainWindow::selectFile()
         filePathLabel->setText(selectedFilePath);
         sortButton->setEnabled(true);
     }
-}   
+}
 
 void MainWindow::openSortWindow()
 {
@@ -63,16 +67,18 @@ void MainWindow::openSortWindow()
     sortWindow->setFilePath(selectedFilePath);
     sortWindow->show();
 }
-void MainWindow::open_generator(){
-    
+
+void MainWindow::open_generator()
+{
+    if (!generatWindow) {
+        generatWindow = new Generat(this);
+    }
+    generatWindow->show();
 }
 
 void MainWindow::showPoshalka()
 {
-    // Укажите полный путь к вашему изображению
-    QString imagePath = "/home/misha/CNPZD/plusi_lr_avt/kitik.jpg"; // Замените на реальный путь
-    
-    QPixmap pixmap(imagePath);
+    QPixmap pixmap(POSHALKA_IMAGE_PATH);
     if (!pixmap.isNull()) {
         QDialog *imageDialog = new QDialog(this);
         imageDialog->setWindowTitle("Посхалко");
@@ -84,7 +90,7 @@ void MainWindow::showPoshalka()
         dialogLayout->addWidget(imageLabel);
         imageDialog->setLayout(dialogLayout);
         
-        imageDialog->exec(); // Показываем модальное окно
+        imageDialog->exec();
     } else {
         QMessageBox::warning(this, "Ошибка", "Не удалось загрузить изображение");
     }

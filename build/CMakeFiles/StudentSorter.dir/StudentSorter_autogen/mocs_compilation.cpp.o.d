@@ -1,10 +1,9 @@
 CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o: \
  /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/moc_mainwindow.cpp \
- /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/../../../include/mainwindow.h \
- /usr/include/qt6/QtWidgets/QMainWindow \
- /usr/include/qt6/QtWidgets/qmainwindow.h \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/moc_generat.cpp \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/../../../include/generat.h \
+ /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/14.2.1/type_traits \
@@ -334,35 +333,40 @@ CMakeFiles/StudentSorter.dir/StudentSorter_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtGui/qfontmetrics.h /usr/include/qt6/QtGui/qfontinfo.h \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
- /usr/include/qt6/QtWidgets/qtabwidget.h \
- /usr/include/qt6/QtWidgets/QPushButton \
+ /usr/include/qt6/QtWidgets/QSpinBox \
+ /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt6/QtGui/qvalidator.h \
+ /usr/include/qt6/QtCore/qregularexpression.h \
+ /usr/include/qt6/QtCore/qlocale.h /usr/include/qt6/QtWidgets/QPushButton \
  /usr/include/qt6/QtWidgets/qpushbutton.h \
  /usr/include/qt6/QtWidgets/qabstractbutton.h \
- /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
- /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qpicture.h \
- /usr/include/qt6/QtCore/qiodevice.h \
- /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
  /usr/include/qt6/QtWidgets/QVBoxLayout \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qlayout.h \
  /usr/include/qt6/QtWidgets/qlayoutitem.h \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
+ /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qpicture.h \
+ /usr/include/qt6/QtCore/qiodevice.h \
+ /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
  /usr/include/qt6/QtGui/qtextcursor.h \
  /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
  /usr/include/qt6/QtGui/qtextoption.h \
  /usr/include/qt6/QtCore/qtmochelpers.h \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/moc_mainwindow.cpp \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/../../../include/mainwindow.h \
+ /usr/include/qt6/QtWidgets/QMainWindow \
+ /usr/include/qt6/QtWidgets/qmainwindow.h \
+ /usr/include/qt6/QtWidgets/qtabwidget.h \
+ /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/../../../include/generat.h \
  /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/moc_sortwindow.cpp \
  /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/../../../include/sortwindow.h \
- /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
  /usr/include/qt6/QtWidgets/QComboBox \
  /usr/include/qt6/QtWidgets/qcombobox.h \
  /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
  /usr/include/qt6/QtWidgets/qstyleoption.h \
- /usr/include/qt6/QtCore/qlocale.h \
- /usr/include/qt6/QtWidgets/qabstractspinbox.h \
- /usr/include/qt6/QtGui/qvalidator.h \
- /usr/include/qt6/QtCore/qregularexpression.h \
  /usr/include/qt6/QtWidgets/qslider.h \
  /usr/include/qt6/QtWidgets/qabstractslider.h \
  /usr/include/qt6/QtWidgets/qstyle.h /usr/include/qt6/QtWidgets/qtabbar.h \

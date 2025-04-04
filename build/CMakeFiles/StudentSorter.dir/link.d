@@ -11,6 +11,8 @@ StudentSorter: \
   CMakeFiles/StudentSorter.dir/add_to_file.cpp.o \
   CMakeFiles/StudentSorter.dir/file_g_p.cpp.o \
   CMakeFiles/StudentSorter.dir/Student.cpp.o \
+  CMakeFiles/StudentSorter.dir/generatr.cpp.o \
+  CMakeFiles/StudentSorter.dir/src/generat.cpp.o \
   CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o \
   CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o \
   CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o \
@@ -113,6 +115,10 @@ CMakeFiles/StudentSorter.dir/add_to_file.cpp.o:
 CMakeFiles/StudentSorter.dir/file_g_p.cpp.o:
 
 CMakeFiles/StudentSorter.dir/Student.cpp.o:
+
+CMakeFiles/StudentSorter.dir/generatr.cpp.o:
+
+CMakeFiles/StudentSorter.dir/src/generat.cpp.o:
 
 CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o:
 

@@ -9,14 +9,17 @@ StudentSorter_autogen/timestamp: \
 	/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/moc_predefs.h \
 	/home/misha/CNPZD/plusi_lr_avt/file_g_p.cpp \
 	/home/misha/CNPZD/plusi_lr_avt/file_g_p.h \
-	/home/misha/CNPZD/plusi_lr_avt/include/common.h \
+	/home/misha/CNPZD/plusi_lr_avt/generatr.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/generatr.h \
 	/home/misha/CNPZD/plusi_lr_avt/include/fileprocessor.h \
+	/home/misha/CNPZD/plusi_lr_avt/include/generat.h \
 	/home/misha/CNPZD/plusi_lr_avt/include/mainwindow.h \
 	/home/misha/CNPZD/plusi_lr_avt/include/sortwindow.h \
 	/home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.h \
 	/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.h \
 	/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.h \
 	/home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp \
+	/home/misha/CNPZD/plusi_lr_avt/src/generat.cpp \
 	/home/misha/CNPZD/plusi_lr_avt/src/main.cpp \
 	/home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp \
 	/home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp \
@@ -436,6 +439,7 @@ StudentSorter_autogen/timestamp: \
 	/usr/include/qt6/QtWidgets/QLabel \
 	/usr/include/qt6/QtWidgets/QMainWindow \
 	/usr/include/qt6/QtWidgets/QPushButton \
+	/usr/include/qt6/QtWidgets/QSpinBox \
 	/usr/include/qt6/QtWidgets/QVBoxLayout \
 	/usr/include/qt6/QtWidgets/qabstractbutton.h \
 	/usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
@@ -454,6 +458,7 @@ StudentSorter_autogen/timestamp: \
 	/usr/include/qt6/QtWidgets/qrubberband.h \
 	/usr/include/qt6/QtWidgets/qsizepolicy.h \
 	/usr/include/qt6/QtWidgets/qslider.h \
+	/usr/include/qt6/QtWidgets/qspinbox.h \
 	/usr/include/qt6/QtWidgets/qstyle.h \
 	/usr/include/qt6/QtWidgets/qstyleoption.h \
 	/usr/include/qt6/QtWidgets/qtabbar.h \

@@ -357,4 +357,11 @@ CMakeFiles/StudentSorter.dir/src/main.cpp.o: \
  /usr/include/qt6/QtWidgets/qlayout.h \
  /usr/include/qt6/QtWidgets/qlayoutitem.h \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
- /usr/include/qt6/QtWidgets/qgridlayout.h
+ /usr/include/qt6/QtWidgets/qgridlayout.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/generat.h \
+ /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
+ /usr/include/qt6/QtWidgets/QSpinBox \
+ /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt6/QtGui/qvalidator.h \
+ /usr/include/qt6/QtCore/qregularexpression.h

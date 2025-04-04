@@ -5,6 +5,7 @@
 #include <QPushButton>
 #include <QLabel>
 #include <QVBoxLayout>
+#include "generat.h"
 
 class SortWindow;
 
@@ -20,25 +21,21 @@ private slots:
     void selectFile();
     void openSortWindow();
     void showPoshalka();
-    void open_generator();  // Новый слот для кнопки "Посхалко"
+    void open_generator();
 
 private:
-    // Виджеты
     QPushButton *selectFileButton;
     QPushButton *sortButton;
     QPushButton *poshalka;
     QPushButton *gener;
-    //QPushButton *gener;
     QLabel *filePathLabel;
     QVBoxLayout *layout;
     QWidget *centralWidget;
-    
-    // Вспомогательные указатели
     SortWindow *sortWindow;
-    
-    // Данные
+    Generat *generatWindow;
+
     QString selectedFilePath;
-    const QString POSHALKA_IMAGE_PATH = "/home/misha/CNPZD/plusi_lr_avt/kitik.jpg";  // Путь к изображению
+    const QString POSHALKA_IMAGE_PATH = "/home/misha/CNPZD/plusi_lr_avt/kitik.jpg";
 };
 
-#endif // MAINWINDOW_H
+#endif 

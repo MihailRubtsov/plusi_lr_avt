@@ -251,6 +251,30 @@ file_g_p.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/file_g_p.cpp.s
 .PHONY : file_g_p.cpp.s
 
+generatr.o: generatr.cpp.o
+.PHONY : generatr.o
+
+# target to build an object file
+generatr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/generatr.cpp.o
+.PHONY : generatr.cpp.o
+
+generatr.i: generatr.cpp.i
+.PHONY : generatr.i
+
+# target to preprocess a source file
+generatr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/generatr.cpp.i
+.PHONY : generatr.cpp.i
+
+generatr.s: generatr.cpp.s
+.PHONY : generatr.s
+
+# target to generate assembly for a file
+generatr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/generatr.cpp.s
+.PHONY : generatr.cpp.s
+
 sortirov/sich_sort.o: sortirov/sich_sort.cpp.o
 .PHONY : sortirov/sich_sort.o
 
@@ -346,6 +370,30 @@ src/fileprocessor.s: src/fileprocessor.cpp.s
 src/fileprocessor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.s
 .PHONY : src/fileprocessor.cpp.s
+
+src/generat.o: src/generat.cpp.o
+.PHONY : src/generat.o
+
+# target to build an object file
+src/generat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/src/generat.cpp.o
+.PHONY : src/generat.cpp.o
+
+src/generat.i: src/generat.cpp.i
+.PHONY : src/generat.i
+
+# target to preprocess a source file
+src/generat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/src/generat.cpp.i
+.PHONY : src/generat.cpp.i
+
+src/generat.s: src/generat.cpp.s
+.PHONY : src/generat.s
+
+# target to generate assembly for a file
+src/generat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/src/generat.cpp.s
+.PHONY : src/generat.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -466,6 +514,9 @@ help:
 	@echo "... file_g_p.o"
 	@echo "... file_g_p.i"
 	@echo "... file_g_p.s"
+	@echo "... generatr.o"
+	@echo "... generatr.i"
+	@echo "... generatr.s"
 	@echo "... sortirov/sich_sort.o"
 	@echo "... sortirov/sich_sort.i"
 	@echo "... sortirov/sich_sort.s"
@@ -478,6 +529,9 @@ help:
 	@echo "... src/fileprocessor.o"
 	@echo "... src/fileprocessor.i"
 	@echo "... src/fileprocessor.s"
+	@echo "... src/generat.o"
+	@echo "... src/generat.i"
+	@echo "... src/generat.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

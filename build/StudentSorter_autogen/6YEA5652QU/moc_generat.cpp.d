@@ -1,6 +1,5 @@
-/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/moc_mainwindow.cpp: /home/misha/CNPZD/plusi_lr_avt/include/mainwindow.h \
+/home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/6YEA5652QU/moc_generat.cpp: /home/misha/CNPZD/plusi_lr_avt/include/generat.h \
   /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter_autogen/moc_predefs.h \
-  /home/misha/CNPZD/plusi_lr_avt/include/generat.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -411,7 +410,6 @@
   /usr/include/qt6/QtGui/qwindowdefs.h \
   /usr/include/qt6/QtWidgets/QDialog \
   /usr/include/qt6/QtWidgets/QLabel \
-  /usr/include/qt6/QtWidgets/QMainWindow \
   /usr/include/qt6/QtWidgets/QPushButton \
   /usr/include/qt6/QtWidgets/QSpinBox \
   /usr/include/qt6/QtWidgets/QVBoxLayout \
@@ -424,11 +422,9 @@
   /usr/include/qt6/QtWidgets/qlabel.h \
   /usr/include/qt6/QtWidgets/qlayout.h \
   /usr/include/qt6/QtWidgets/qlayoutitem.h \
-  /usr/include/qt6/QtWidgets/qmainwindow.h \
   /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/qt6/QtWidgets/qspinbox.h \
-  /usr/include/qt6/QtWidgets/qtabwidget.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
   /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \

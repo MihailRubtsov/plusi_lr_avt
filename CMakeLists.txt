@@ -18,6 +18,8 @@ set(MAIN_SOURCES
     add_to_file.cpp
     file_g_p.cpp
     Student.cpp
+    generatr.cpp
+    src/generat.cpp
 )
 
 # Заголовочные файлы
@@ -25,11 +27,12 @@ set(HEADERS
     include/mainwindow.h
     include/sortwindow.h
     include/fileprocessor.h
-    include/common.h
     work_with_files.h
     add_to_file.h
     file_g_p.h
     Student.h
+    generatr.h
+    include/generat.h
 )
 
 # Файлы сортировки из папки sortirov

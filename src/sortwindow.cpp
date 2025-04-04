@@ -6,10 +6,9 @@
 SortWindow::SortWindow(QWidget *parent)
     : QDialog(parent)
 {
-    // Создаем layout
+    resize(300, 300);
     QVBoxLayout *layout = new QVBoxLayout(this);
-    
-    // Создаем элементы интерфейса
+
     fileLabel = new QLabel("Файл: не выбран", this);
     
     sortTypeCombo = new QComboBox(this);
@@ -28,7 +27,7 @@ SortWindow::SortWindow(QWidget *parent)
     
     sortButton = new QPushButton("Выполнить сортировку", this);
     
-    // Добавляем элементы в layout
+
     layout->addWidget(fileLabel);
     layout->addWidget(new QLabel("Тип сортировки:", this));
     layout->addWidget(sortTypeCombo);
@@ -37,8 +36,7 @@ SortWindow::SortWindow(QWidget *parent)
     layout->addWidget(new QLabel("Порядок сортировки:", this));
     layout->addWidget(sortOrderCombo);
     layout->addWidget(sortButton);
-    
-    // Подключаем сигнал
+
     connect(sortButton, &QPushButton::clicked, this, &SortWindow::executeSort);
     
     setLayout(layout);
@@ -46,7 +44,7 @@ SortWindow::SortWindow(QWidget *parent)
 
 SortWindow::~SortWindow()
 {
-    // Автоматически удалятся, так как родитель this
+    
 }
 
 void SortWindow::setFilePath(const QString &path)

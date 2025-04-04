@@ -445,15 +445,21 @@
 			null
 		],
 		[
-			"/home/misha/CNPZD/plusi_lr_avt/include/common.h",
+			"/home/misha/CNPZD/plusi_lr_avt/generatr.h",
 			"MU",
-			"6YEA5652QU/moc_common.cpp",
+			"EWIEGA46WW/moc_generatr.cpp",
 			null
 		],
 		[
 			"/home/misha/CNPZD/plusi_lr_avt/include/fileprocessor.h",
 			"MU",
 			"6YEA5652QU/moc_fileprocessor.cpp",
+			null
+		],
+		[
+			"/home/misha/CNPZD/plusi_lr_avt/include/generat.h",
+			"MU",
+			"6YEA5652QU/moc_generat.cpp",
 			null
 		],
 		[
@@ -547,10 +553,12 @@
 		[ "/home/misha/CNPZD/plusi_lr_avt/Student.cpp", "MU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/add_to_file.cpp", "MU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/file_g_p.cpp", "MU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/generatr.cpp", "MU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp", "mU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.cpp", "mU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp", "mU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp", "MU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/src/generat.cpp", "MU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/src/main.cpp", "MU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp", "MU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp", "MU", null ],
