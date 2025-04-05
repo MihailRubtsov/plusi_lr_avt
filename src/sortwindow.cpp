@@ -27,7 +27,7 @@ SortWindow::SortWindow(QWidget *parent)
     
     sortButton = new QPushButton("Выполнить сортировку", this);
     
-
+    timme_sort = new QLabel("Вы пока не выполняли сортировку.", this);
     layout->addWidget(fileLabel);
     layout->addWidget(new QLabel("Тип сортировки:", this));
     layout->addWidget(sortTypeCombo);
@@ -36,6 +36,7 @@ SortWindow::SortWindow(QWidget *parent)
     layout->addWidget(new QLabel("Порядок сортировки:", this));
     layout->addWidget(sortOrderCombo);
     layout->addWidget(sortButton);
+    layout->addWidget(timme_sort);
 
     connect(sortButton, &QPushButton::clicked, this, &SortWindow::executeSort);
     
@@ -55,9 +56,10 @@ void SortWindow::setFilePath(const QString &path)
 
 void SortWindow::executeSort()
 {
-    int sortType = sortTypeCombo->currentIndex() + 1;
+    int sortType = sortTypeCombo->currentIndex() + 1; // параметры выбранные пользователем
     int dataType = dataTypeCombo->currentIndex() + 1;
     int sortOrder = sortOrderCombo->currentIndex() + 1;
     
-    FileProcessor::processFile(filePath, sortType, dataType, sortOrder);
+    int timee = FileProcessor::processFile(filePath, sortType, dataType, sortOrder);
+    timme_sort->setText("Время сортировки: "+ QString::number(timee) + "ms");
 }

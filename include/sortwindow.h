@@ -26,6 +26,7 @@ private:
     QComboBox *sortOrderCombo;
     QPushButton *sortButton;
     QLabel *fileLabel;
+    QLabel *timme_sort;
     
     QString filePath;
 };
