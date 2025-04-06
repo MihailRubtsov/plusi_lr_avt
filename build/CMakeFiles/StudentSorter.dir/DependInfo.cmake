@@ -23,7 +23,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/misha/CNPZD/plusi_lr_avt/src/mainwindow.cpp" "CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o.d"
   "/home/misha/CNPZD/plusi_lr_avt/src/sortwindow.cpp" "CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/src/sortwindow.cpp.o.d"
   "/home/misha/CNPZD/plusi_lr_avt/work_with_files.cpp" "CMakeFiles/StudentSorter.dir/work_with_files.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/work_with_files.cpp.o.d"
-  "" "StudentSorter" "gcc" "CMakeFiles/StudentSorter.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

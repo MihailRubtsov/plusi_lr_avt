@@ -1,25 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'mainwindow.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.2)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.4.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../../../include/mainwindow.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
-
-#include <QtCore/qtmochelpers.h>
-
-#include <memory>
-
-
-#include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'mainwindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.2. It"
+#error "This file was generated using the moc from 6.4.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -28,31 +22,44 @@
 #define Q_CONSTINIT
 #endif
 
+QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN10MainWindowE_t {};
-} // unnamed namespace
-
-
-#ifdef QT_MOC_HAS_STRINGDATA
-static constexpr auto qt_meta_stringdata_ZN10MainWindowE = QtMocHelpers::stringData(
+struct qt_meta_stringdata_MainWindow_t {
+    uint offsetsAndSizes[12];
+    char stringdata0[11];
+    char stringdata1[11];
+    char stringdata2[1];
+    char stringdata3[15];
+    char stringdata4[13];
+    char stringdata5[15];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_MainWindow_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
+    {
+        QT_MOC_LITERAL(0, 10),  // "MainWindow"
+        QT_MOC_LITERAL(11, 10),  // "selectFile"
+        QT_MOC_LITERAL(22, 0),  // ""
+        QT_MOC_LITERAL(23, 14),  // "openSortWindow"
+        QT_MOC_LITERAL(38, 12),  // "showPoshalka"
+        QT_MOC_LITERAL(51, 14)   // "open_generator"
+    },
     "MainWindow",
     "selectFile",
     "",
     "openSortWindow",
     "showPoshalka",
     "open_generator"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+};
+#undef QT_MOC_LITERAL
+} // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_ZN10MainWindowE[] = {
+Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
 
  // content:
-      12,       // revision
+      10,       // revision
        0,       // classname
        0,    0, // classinfo
        4,   14, // methods
@@ -79,11 +86,11 @@ Q_CONSTINIT static const uint qt_meta_data_ZN10MainWindowE[] = {
 
 Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
     QMetaObject::SuperData::link<QMainWindow::staticMetaObject>(),
-    qt_meta_stringdata_ZN10MainWindowE.offsetsAndSizes,
-    qt_meta_data_ZN10MainWindowE,
+    qt_meta_stringdata_MainWindow.offsetsAndSizes,
+    qt_meta_data_MainWindow,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_tag_ZN10MainWindowE_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_MainWindow_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>,
         // method 'selectFile'
@@ -100,8 +107,9 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
 
 void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    auto *_t = static_cast<MainWindow *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<MainWindow *>(_o);
+        (void)_t;
         switch (_id) {
         case 0: _t->selectFile(); break;
         case 1: _t->openSortWindow(); break;
@@ -121,7 +129,7 @@ const QMetaObject *MainWindow::metaObject() const
 void *MainWindow::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ZN10MainWindowE.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_MainWindow.stringdata0))
         return static_cast<void*>(this);
     return QMainWindow::qt_metacast(_clname);
 }
@@ -135,8 +143,7 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 4;
-    }
-    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 4;
@@ -144,3 +151,4 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_WARNING_POP
+QT_END_MOC_NAMESPACE

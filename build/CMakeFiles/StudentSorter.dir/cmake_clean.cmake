@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/StudentSorter.dir/link.d"
   "CMakeFiles/StudentSorter_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/StudentSorter_autogen.dir/ParseCache.txt"
   "StudentSorter_autogen"

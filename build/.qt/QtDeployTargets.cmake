@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_StudentSorter_FILE /home/misha/CNPZD/plusi_lr_avt/build/StudentSorter)
-set(__QT_DEPLOY_TARGET_StudentSorter_TYPE EXECUTABLE)
