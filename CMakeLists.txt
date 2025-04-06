@@ -69,3 +69,5 @@ set_target_properties(StudentSorter PROPERTIES
 
 # Для файлов сортировки (если они не используют Qt)
 set_source_files_properties(${SORT_SOURCES} PROPERTIES SKIP_AUTOMOC ON)
+
+set(CMAKE_EXE_LINKER_FLAGS "-Wl,-rpath,/usr/lib/x86_64-linux-gnu -Wl,--disable-new-dtags")

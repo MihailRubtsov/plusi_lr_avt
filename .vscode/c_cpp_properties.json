@@ -1,19 +1,18 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Linux (Qt6 - Ubuntu)",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include/qt6/",                     // Основные заголовки Qt6
-                "/usr/include/qt6/QtCore",                // QtCore
-                "/usr/include/qt6/QtGui",                 // QtGui
-                "/usr/include/qt6/QtWidgets",             // QtWidgets (если используете)
-                "/usr/include/qt6/QtNetwork",             // QtNetwork (если нужно)
-                "/usr/lib/qt6/mkspecs/linux-g++",        // Для qmake (если используется)
-                "/usr/lib/cmake/" 
+                "/usr/include/x86_64-linux-gnu/qt6/**",  // Основные заголовки Qt6
+                "/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++"  // Для qmake
             ],
-            "defines": [],
-            "compilerPath": "/usr/bin/gcc",
+            "defines": [
+                "QT_CORE_LIB",
+                "QT_GUI_LIB",
+                "QT_WIDGETS_LIB"  // Добавляйте другие модули по необходимости
+            ],
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "linux-gcc-x64"
