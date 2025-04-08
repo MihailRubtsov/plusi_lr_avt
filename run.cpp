@@ -33,5 +33,6 @@ int main(){
     cout << "напиши 1 чтобы от меньшего к большему и 2 от большему к меньшему " << endl;
     cin >> kk;
     mainn(nazv_file, vib, vr, kk);
+    
     return 0;
 }
