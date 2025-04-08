@@ -28,8 +28,9 @@ int dlin_file(string name_f) {
 
 int mainn(string name_file, int vibb, int vib_k, int kk) {
     int dlin = dlin_file(name_file);
-    Student* arr = new Student[dlin];
-    get_massiv(name_file, arr, dlin);
+    vector<Student> arrr;
+    //Student* arr = new Student[dlin];
+    get_massiv(name_file, arrr, dlin);
     
 
     chrono::time_point<chrono::high_resolution_clock> start, end;
@@ -38,7 +39,7 @@ int mainn(string name_file, int vibb, int vib_k, int kk) {
     {
     case 1 : // если сортировка пузырьком
         start = chrono::high_resolution_clock::now();
-        sort_B(arr, dlin, vib_k , kk);
+        sort_B(arrr, dlin, vib_k , kk);
         end = chrono::high_resolution_clock::now();
         duration = chrono::duration_cast<chrono::milliseconds>(end - start);
         cout << "Время выполнения сортировки: " << duration.count() << " мс" << endl;
@@ -46,7 +47,7 @@ int mainn(string name_file, int vibb, int vib_k, int kk) {
         break;
     case 2: // сортировка вставками
         start = chrono::high_resolution_clock::now();
-        selectionSort(arr, dlin, vib_k , kk);
+        selectionSort(arrr, dlin, vib_k , kk);
         end = chrono::high_resolution_clock::now();
         duration = chrono::duration_cast<chrono::milliseconds>(end - start);
         cout << "Время выполнения сортировки: " << duration.count() << " мс" <<endl;
@@ -54,15 +55,15 @@ int mainn(string name_file, int vibb, int vib_k, int kk) {
         break;
     case 3:
     start = chrono::high_resolution_clock::now();
-    sorti(arr, dlin, vib_k , kk);
+    sorti(arrr, dlin, vib_k , kk);
     end = chrono::high_resolution_clock::now();
     duration = chrono::duration_cast<chrono::milliseconds>(end - start);
     cout << "Время выполнения сортировки: " << duration.count() << " мс" << endl;
     cout << "сортировка sort от C++" << endl;
     break;
     }
-    otpr_to_file(arr, dlin);
-    delete[] arr;
+    otpr_to_file(arrr, dlin);
+    //delete[] arr;
     return 0;
 }
 

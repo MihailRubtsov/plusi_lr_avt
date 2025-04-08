@@ -36,8 +36,8 @@ bool compare_two(Student& a, Student& b, int vibr, int kakak) {
 }
 
 // Функция сортировки массива студентов
-void sorti(Student* mass, int size, int vibb, int kak) {
-    std::sort(mass, mass + size, 
+void sorti(vector<Student>& mass, int size, int vibb, int kak) {
+    std::sort(mass.begin(), mass.end(), 
         [vibb, kak](Student& a, Student& b) {
             return compare_two(a, b, vibb, kak);
         }

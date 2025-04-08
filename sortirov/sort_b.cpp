@@ -3,7 +3,7 @@
 #include <algorithm> // для использования swap
 using namespace std;
 
-void sort_B(Student* mass, int size, int vibbr, int kak) { //сортировка пузырьком
+void sort_B(vector<Student>& mass, int size, int vibbr, int kak) { //сортировка пузырьком
     switch(vibbr){
         case 1: // сортировка по баллам
             for (int i = 0; i < size-1; ++ i) {

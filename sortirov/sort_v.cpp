@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int find_p(Student list[], int start_p, int listLength, int vibbr, int kak)  
+int find_p(vector<Student>& list, int start_p, int listLength, int vibbr, int kak)  
 {
     
     int pos = start_p; 
@@ -60,7 +60,7 @@ int find_p(Student list[], int start_p, int listLength, int vibbr, int kak)
     return pos; 
 }
 
-void selectionSort(Student list[], int len, int vr, int kk) // сортировка вставками
+void selectionSort(vector<Student>& list, int len, int vr, int kk) // сортировка вставками
 {
     for (int i = 0; i < len; i++) 
     {
