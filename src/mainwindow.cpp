@@ -7,9 +7,10 @@
 #include <QVBoxLayout>
 #include <QMessageBox>
 #include "generat.h"
+#include "addstudentwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent), sortWindow(nullptr), generatWindow(nullptr)
+    : QMainWindow(parent), sortWindow(nullptr), generatWindow(nullptr), addStudentWindow(nullptr)
 {
     resize(300, 300);
     
@@ -40,6 +41,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(sortButton, &QPushButton::clicked, this, &MainWindow::openSortWindow);
     connect(poshalka, &QPushButton::clicked, this, &MainWindow::showPoshalka);
     connect(gener, &QPushButton::clicked, this, &MainWindow::open_generator);
+    connect(dobavlenie, &QPushButton::clicked, this, &MainWindow::openAddStudentWindow);
     
     // Начальные настройки
     sortButton->setEnabled(false);
@@ -49,6 +51,7 @@ MainWindow::~MainWindow()
 {
     if (sortWindow) delete sortWindow;
     if (generatWindow) delete generatWindow;
+    if (addStudentWindow) delete addStudentWindow;
 }
 
 void MainWindow::selectFile()
@@ -97,4 +100,12 @@ void MainWindow::showPoshalka()
     } else {
         QMessageBox::warning(this, "Ошибка", "Не удалось загрузить изображение");
     }
+}
+
+void MainWindow::openAddStudentWindow()
+{
+    if (!addStudentWindow) {
+        addStudentWindow = new AddStudentWindow(this);
+    }
+    addStudentWindow->show();
 }

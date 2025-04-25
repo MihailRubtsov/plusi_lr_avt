@@ -6,6 +6,7 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include "generat.h"
+#include "addstudentwindow.h"
 
 class SortWindow;
 
@@ -22,6 +23,7 @@ private slots:
     void openSortWindow();
     void showPoshalka();
     void open_generator();
+    void openAddStudentWindow();
 
 private:
     QPushButton *selectFileButton;
@@ -32,11 +34,14 @@ private:
     QLabel *filePathLabel;
     QVBoxLayout *layout;
     QWidget *centralWidget;
+    
+    // Окна приложения
     SortWindow *sortWindow;
     Generat *generatWindow;
+    AddStudentWindow *addStudentWindow;
 
     QString selectedFilePath;
     const QString POSHALKA_IMAGE_PATH = "/home/misha/CNPZD/plusi_lr_avt/kitik.jpg";
 };
 
-#endif 
+#endif // MAINWINDOW_H

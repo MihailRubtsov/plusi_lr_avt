@@ -14,6 +14,7 @@ set(MAIN_SOURCES
     src/mainwindow.cpp
     src/sortwindow.cpp
     src/fileprocessor.cpp
+    src/addstudentwindow.cpp
     work_with_files.cpp
     add_to_file.cpp
     file_g_p.cpp
@@ -27,6 +28,7 @@ set(HEADERS
     include/mainwindow.h
     include/sortwindow.h
     include/fileprocessor.h
+    include/addstudentwindow.h
     work_with_files.h
     add_to_file.h
     file_g_p.h
