@@ -362,6 +362,17 @@ CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/addstudentwindow.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/../add_to_file.h \
  /home/misha/CNPZD/plusi_lr_avt/include/sortwindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
@@ -402,9 +413,7 @@ CMakeFiles/StudentSorter.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qfileinfo.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPixmap \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
- /home/misha/CNPZD/plusi_lr_avt/include/generat.h
+ /home/misha/CNPZD/plusi_lr_avt/include/generat.h \
+ /home/misha/CNPZD/plusi_lr_avt/include/addstudentwindow.h

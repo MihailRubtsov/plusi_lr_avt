@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o.d"
   "CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o"
   "CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o.d"
+  "CMakeFiles/StudentSorter.dir/src/addstudentwindow.cpp.o"
+  "CMakeFiles/StudentSorter.dir/src/addstudentwindow.cpp.o.d"
   "CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o"
   "CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o.d"
   "CMakeFiles/StudentSorter.dir/src/generat.cpp.o"

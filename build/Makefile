@@ -347,6 +347,30 @@ sortirov/sort_v.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.s
 .PHONY : sortirov/sort_v.cpp.s
 
+src/addstudentwindow.o: src/addstudentwindow.cpp.o
+.PHONY : src/addstudentwindow.o
+
+# target to build an object file
+src/addstudentwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/src/addstudentwindow.cpp.o
+.PHONY : src/addstudentwindow.cpp.o
+
+src/addstudentwindow.i: src/addstudentwindow.cpp.i
+.PHONY : src/addstudentwindow.i
+
+# target to preprocess a source file
+src/addstudentwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/src/addstudentwindow.cpp.i
+.PHONY : src/addstudentwindow.cpp.i
+
+src/addstudentwindow.s: src/addstudentwindow.cpp.s
+.PHONY : src/addstudentwindow.s
+
+# target to generate assembly for a file
+src/addstudentwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/src/addstudentwindow.cpp.s
+.PHONY : src/addstudentwindow.cpp.s
+
 src/fileprocessor.o: src/fileprocessor.cpp.o
 .PHONY : src/fileprocessor.o
 
@@ -526,6 +550,9 @@ help:
 	@echo "... sortirov/sort_v.o"
 	@echo "... sortirov/sort_v.i"
 	@echo "... sortirov/sort_v.s"
+	@echo "... src/addstudentwindow.o"
+	@echo "... src/addstudentwindow.i"
+	@echo "... src/addstudentwindow.s"
 	@echo "... src/fileprocessor.o"
 	@echo "... src/fileprocessor.i"
 	@echo "... src/fileprocessor.s"

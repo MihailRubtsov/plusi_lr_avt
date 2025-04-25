@@ -11,6 +11,7 @@ StudentSorter_autogen/timestamp: \
 	/home/misha/CNPZD/plusi_lr_avt/file_g_p.h \
 	/home/misha/CNPZD/plusi_lr_avt/generatr.cpp \
 	/home/misha/CNPZD/plusi_lr_avt/generatr.h \
+	/home/misha/CNPZD/plusi_lr_avt/include/addstudentwindow.h \
 	/home/misha/CNPZD/plusi_lr_avt/include/fileprocessor.h \
 	/home/misha/CNPZD/plusi_lr_avt/include/generat.h \
 	/home/misha/CNPZD/plusi_lr_avt/include/mainwindow.h \
@@ -18,6 +19,7 @@ StudentSorter_autogen/timestamp: \
 	/home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.h \
 	/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.h \
 	/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.h \
+	/home/misha/CNPZD/plusi_lr_avt/src/addstudentwindow.cpp \
 	/home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp \
 	/home/misha/CNPZD/plusi_lr_avt/src/generat.cpp \
 	/home/misha/CNPZD/plusi_lr_avt/src/main.cpp \
@@ -409,6 +411,7 @@ StudentSorter_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
@@ -416,7 +419,10 @@ StudentSorter_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
@@ -426,7 +432,9 @@ StudentSorter_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSpinBox \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
@@ -442,7 +450,9 @@ StudentSorter_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \

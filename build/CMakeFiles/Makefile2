@@ -84,12 +84,12 @@ CMakeFiles/StudentSorter.dir/all: CMakeFiles/StudentSorter_autogen_timestamp_dep
 CMakeFiles/StudentSorter.dir/all: CMakeFiles/StudentSorter_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter.dir/build.make CMakeFiles/StudentSorter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target StudentSorter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target StudentSorter"
 .PHONY : CMakeFiles/StudentSorter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StudentSorter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/StudentSorter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles 0
 .PHONY : CMakeFiles/StudentSorter.dir/rule
@@ -136,7 +136,7 @@ CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/clean:
 CMakeFiles/StudentSorter_autogen.dir/all: CMakeFiles/StudentSorter_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter_autogen.dir/build.make CMakeFiles/StudentSorter_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentSorter_autogen.dir/build.make CMakeFiles/StudentSorter_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=17 "Built target StudentSorter_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/misha/CNPZD/plusi_lr_avt/build/CMakeFiles --progress-num=18 "Built target StudentSorter_autogen"
 .PHONY : CMakeFiles/StudentSorter_autogen.dir/all
 
 # Build rule for subdir invocation for target.

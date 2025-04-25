@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp" "CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/sortirov/sich_sort.cpp.o.d"
   "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.cpp" "CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/sortirov/sort_b.cpp.o.d"
   "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp" "CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/sortirov/sort_v.cpp.o.d"
+  "/home/misha/CNPZD/plusi_lr_avt/src/addstudentwindow.cpp" "CMakeFiles/StudentSorter.dir/src/addstudentwindow.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/src/addstudentwindow.cpp.o.d"
   "/home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp" "CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/src/fileprocessor.cpp.o.d"
   "/home/misha/CNPZD/plusi_lr_avt/src/generat.cpp" "CMakeFiles/StudentSorter.dir/src/generat.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/src/generat.cpp.o.d"
   "/home/misha/CNPZD/plusi_lr_avt/src/main.cpp" "CMakeFiles/StudentSorter.dir/src/main.cpp.o" "gcc" "CMakeFiles/StudentSorter.dir/src/main.cpp.o.d"

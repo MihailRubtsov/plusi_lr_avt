@@ -198,6 +198,12 @@
 			null
 		],
 		[
+			"/home/misha/CNPZD/plusi_lr_avt/include/addstudentwindow.h",
+			"MU",
+			"6YEA5652QU/moc_addstudentwindow.cpp",
+			null
+		],
+		[
 			"/home/misha/CNPZD/plusi_lr_avt/include/fileprocessor.h",
 			"MU",
 			"6YEA5652QU/moc_fileprocessor.cpp",
@@ -303,6 +309,7 @@
 		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sich_sort.cpp", "mU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_b.cpp", "mU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/sortirov/sort_v.cpp", "mU", null ],
+		[ "/home/misha/CNPZD/plusi_lr_avt/src/addstudentwindow.cpp", "MU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/src/fileprocessor.cpp", "MU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/src/generat.cpp", "MU", null ],
 		[ "/home/misha/CNPZD/plusi_lr_avt/src/main.cpp", "MU", null ],
