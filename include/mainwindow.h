@@ -27,6 +27,7 @@ private:
     QPushButton *selectFileButton;
     QPushButton *sortButton;
     QPushButton *poshalka;
+    QPushButton *dobavlenie;
     QPushButton *gener;
     QLabel *filePathLabel;
     QVBoxLayout *layout;

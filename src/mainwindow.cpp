@@ -22,6 +22,8 @@ MainWindow::MainWindow(QWidget *parent)
     filePathLabel = new QLabel("Файл не выбран", centralWidget);
     gener = new QPushButton("Генератор массива", centralWidget);
     poshalka = new QPushButton("Посхалко", centralWidget);
+    dobavlenie = new QPushButton("Добавление в файл", centralWidget);
+
     
     // Настройка layout
     layout->addWidget(selectFileButton);
@@ -29,6 +31,7 @@ MainWindow::MainWindow(QWidget *parent)
     layout->addWidget(sortButton);
     layout->addWidget(poshalka);
     layout->addWidget(gener);
+    layout->addWidget(dobavlenie);
     
     setCentralWidget(centralWidget);
     

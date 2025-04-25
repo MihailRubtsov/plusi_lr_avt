@@ -15,12 +15,16 @@ void generr(int kol){
     int tr;
     out.open("/home/misha/Desktop/prob.txt");
     if (out.is_open()){
-        for (int i = 0; i < kol; i++){
+        for (int i = 0; i < kol - 1; i++){
             pr = rand() % 30;
             vt = rand() % 25;
             tr = rand() % 100 + 1;
             out<< imia[pr] << " " << grop[vt] << " " << tr << endl;
         }
+        pr = rand() % 30;
+        vt = rand() % 25;
+        tr = rand() % 100 + 1;
+        out<< imia[pr] << " " << grop[vt] << " " << tr;
         out.close();
         
     }
