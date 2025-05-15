@@ -12,7 +12,7 @@
 
 using namespace std;
 
-int dlin_file(string name_f) {
+int dlin_file(string name_f) { //фунция которая передает длинну файла
     int dl {0};
     string line;
     ifstream in(name_f);
@@ -26,7 +26,7 @@ int dlin_file(string name_f) {
 }
 
 
-int mainn(string name_file, int vibb, int vib_k, int kk) {
+int mainn(string name_file, int vibb, int vib_k, int kk) { // самая главная функция, именно в ней происходят все сортировки
     int dlin = dlin_file(name_file);
     Student* arr = new Student[dlin];
     get_massiv(name_file, arr, dlin);

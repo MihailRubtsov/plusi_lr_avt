@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-Student::Student(string pname, string pgroup, float psr_ball) {
+Student::Student(string pname, string pgroup, float psr_ball) { // класс студент, именно он создается при считывании файла
     name = pname;
     GRoup = pgroup;
     sr_ball = psr_ball;

@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void add_to_file(string name, string groupp, string balik){
+void add_to_file(string name, string groupp, string balik){ // функуия добавления в файл
     ofstream outt;
     outt.open("/home/misha/Desktop/prob.txt", ios::app);
     if (outt.is_open()){

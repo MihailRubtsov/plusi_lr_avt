@@ -28,28 +28,20 @@ AddStudentWindow::AddStudentWindow(QWidget *parent)
     setLayout(layout);
 }
 
-void AddStudentWindow::addStudentToFile()
+void AddStudentWindow::addStudentToFile() // функция добавления студента в сам файл
 {
     QString name = nameEdit->text().trimmed();
     QString group = groupEdit->text().trimmed();
-    QString ball = ballEdit->text().trimmed();
+    QString ball = ballEdit->text().trimmed(); // trimmed удаляет пробелы в начале и конце на всякий случай
+    bool prov_ball;
+    ball.toDouble(&prov_ball); // эта строка дает понять в этой строке только числа или еще есть другие символы
 
-    // if (name.isEmpty() || group.isEmpty() || ball.isEmpty()) {
-    //     QMessageBox::warning(this, "Ошибка", "Все поля должны быть заполнены!");
-    //     return;
-    // }
+    if (prov_ball == false){
+        QMessageBox::warning(this, "Ошибка", "Средний балл должен быть числом!"); // само окно с ошибкой
+        return;
+    }
 
-    // bool ok;
-    // float ballValue = ball.toFloat(&ok);
-    // if (!ok) {
-    //     QMessageBox::warning(this, "Ошибка", "Средний балл должен быть числом!");
-    //     return;
-    // }
-
-    add_to_file(name.toStdString(), group.toStdString(), ball.toStdString());
-    // QMessageBox::information(this, "Успех", "Студент успешно добавлен!");
-
-    // Очищаем поля после успешного добавления
+    add_to_file(name.toStdString(), group.toStdString(), ball.toStdString()); // функция добавления в файл
     nameEdit->clear();
     groupEdit->clear();
     ballEdit->clear();

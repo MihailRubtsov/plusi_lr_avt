@@ -9,7 +9,7 @@
 #include "generat.h"
 #include "addstudentwindow.h"
 
-MainWindow::MainWindow(QWidget *parent)
+MainWindow::MainWindow(QWidget *parent) // самое главное окно
     : QMainWindow(parent), sortWindow(nullptr), generatWindow(nullptr), addStudentWindow(nullptr)
 {
     resize(300, 300);
@@ -25,25 +25,19 @@ MainWindow::MainWindow(QWidget *parent)
     poshalka = new QPushButton("Посхалко", centralWidget);
     dobavlenie = new QPushButton("Добавление в файл", centralWidget);
 
-    
-    // Настройка layout
     layout->addWidget(selectFileButton);
     layout->addWidget(filePathLabel);
     layout->addWidget(sortButton);
     layout->addWidget(poshalka);
     layout->addWidget(gener);
     layout->addWidget(dobavlenie);
-    
     setCentralWidget(centralWidget);
     
-    // Подключаем сигналы
-    connect(selectFileButton, &QPushButton::clicked, this, &MainWindow::selectFile);
+    connect(selectFileButton, &QPushButton::clicked, this, &MainWindow::selectFile); // говорим кнопкам что должно происходить при их нажатии
     connect(sortButton, &QPushButton::clicked, this, &MainWindow::openSortWindow);
     connect(poshalka, &QPushButton::clicked, this, &MainWindow::showPoshalka);
     connect(gener, &QPushButton::clicked, this, &MainWindow::open_generator);
     connect(dobavlenie, &QPushButton::clicked, this, &MainWindow::openAddStudentWindow);
-    
-    // Начальные настройки
     sortButton->setEnabled(false);
 }
 
@@ -54,7 +48,7 @@ MainWindow::~MainWindow()
     if (addStudentWindow) delete addStudentWindow;
 }
 
-void MainWindow::selectFile()
+void MainWindow::selectFile() // функция для выбора файла
 {
     selectedFilePath = QFileDialog::getOpenFileName(this, "Выберите файл", "", "Текстовые файлы (*.txt)");
     if (!selectedFilePath.isEmpty()) {
@@ -63,10 +57,9 @@ void MainWindow::selectFile()
     }
 }
 
-void MainWindow::openSortWindow()
+void MainWindow::openSortWindow() // открытие сортировочного окна
 {
     if (selectedFilePath.isEmpty()) return;
-    
     if (!sortWindow) {
         sortWindow = new SortWindow(this);
     }
@@ -74,7 +67,7 @@ void MainWindow::openSortWindow()
     sortWindow->show();
 }
 
-void MainWindow::open_generator()
+void MainWindow::open_generator() // открытие окна генерации
 {
     if (!generatWindow) {
         generatWindow = new Generat(this);
@@ -82,27 +75,22 @@ void MainWindow::open_generator()
     generatWindow->show();
 }
 
-void MainWindow::showPoshalka()
+void MainWindow::showPoshalka() // фото котика
 {
     QPixmap pixmap(POSHALKA_IMAGE_PATH);
     if (!pixmap.isNull()) {
         QDialog *imageDialog = new QDialog(this);
         imageDialog->setWindowTitle("Посхалко");
-        
         QLabel *imageLabel = new QLabel(imageDialog);
         imageLabel->setPixmap(pixmap.scaled(600, 400, Qt::KeepAspectRatio));
-        
         QVBoxLayout *dialogLayout = new QVBoxLayout(imageDialog);
         dialogLayout->addWidget(imageLabel);
         imageDialog->setLayout(dialogLayout);
-        
         imageDialog->exec();
-    } else {
-        QMessageBox::warning(this, "Ошибка", "Не удалось загрузить изображение");
     }
 }
 
-void MainWindow::openAddStudentWindow()
+void MainWindow::openAddStudentWindow() // открытие окна добавления студента
 {
     if (!addStudentWindow) {
         addStudentWindow = new AddStudentWindow(this);

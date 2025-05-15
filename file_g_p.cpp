@@ -6,7 +6,7 @@
 #include <sstream>
 using namespace std;
 
-vector<string> razbiv_srt(string strr) {
+vector<string> razbiv_srt(string strr) { // разбиваем строки чтобы получить уже имя группу и баллы
     istringstream iss(strr);
     vector<string> tokens;
     string token;
@@ -20,7 +20,7 @@ vector<string> razbiv_srt(string strr) {
     return tokens;
 }
 
-void get_massiv(string nazv_file, Student* mass, int dlina){
+void get_massiv(string nazv_file, Student* mass, int dlina){ // делаем из файла массив с классами
     string line;
     ifstream in(nazv_file);
     int i = 0;
@@ -33,7 +33,7 @@ void get_massiv(string nazv_file, Student* mass, int dlina){
     }
 }
 
-void otpr_to_file(Student* mass, int dlina){
+void otpr_to_file(Student* mass, int dlina){ // отправляем в файл с ответом наш полученный результат
     ofstream outt;
     outt.open("/home/misha/Desktop/otv.txt");
     string nm;
