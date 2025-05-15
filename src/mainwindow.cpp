@@ -24,6 +24,7 @@ MainWindow::MainWindow(QWidget *parent) // самое главное окно
     gener = new QPushButton("Генератор массива", centralWidget);
     poshalka = new QPushButton("Посхалко", centralWidget);
     dobavlenie = new QPushButton("Добавление в файл", centralWidget);
+    helpButton = new QPushButton("Help", centralWidget);
 
     layout->addWidget(selectFileButton);
     layout->addWidget(filePathLabel);
@@ -31,6 +32,7 @@ MainWindow::MainWindow(QWidget *parent) // самое главное окно
     layout->addWidget(poshalka);
     layout->addWidget(gener);
     layout->addWidget(dobavlenie);
+    layout->addWidget(helpButton);
     setCentralWidget(centralWidget);
     
     connect(selectFileButton, &QPushButton::clicked, this, &MainWindow::selectFile); // говорим кнопкам что должно происходить при их нажатии
@@ -38,6 +40,7 @@ MainWindow::MainWindow(QWidget *parent) // самое главное окно
     connect(poshalka, &QPushButton::clicked, this, &MainWindow::showPoshalka);
     connect(gener, &QPushButton::clicked, this, &MainWindow::open_generator);
     connect(dobavlenie, &QPushButton::clicked, this, &MainWindow::openAddStudentWindow);
+    connect(helpButton, &QPushButton::clicked, this, &MainWindow::showHelp); 
     sortButton->setEnabled(false);
 }
 
@@ -55,6 +58,12 @@ void MainWindow::selectFile() // функция для выбора файла
         filePathLabel->setText(selectedFilePath);
         sortButton->setEnabled(true);
     }
+}
+
+
+void MainWindow::showHelp()
+{
+    QMessageBox::warning(this, "Help", "Вы можете выбрать любой свой файл разрешения txt или сгенерировать файл.\nНо ответ всегда будет появлять в папке Desctop с названием otv.txt");
 }
 
 void MainWindow::openSortWindow() // открытие сортировочного окна

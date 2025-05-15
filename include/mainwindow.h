@@ -24,16 +24,19 @@ private slots:
     void showPoshalka();
     void open_generator();
     void openAddStudentWindow();
+    void showHelp();
 
 private:
     QPushButton *selectFileButton;
     QPushButton *sortButton;
     QPushButton *poshalka;
     QPushButton *dobavlenie;
+    QPushButton *helpButton;
     QPushButton *gener;
     QLabel *filePathLabel;
     QVBoxLayout *layout;
     QWidget *centralWidget;
+    
     
     // Окна приложения
     SortWindow *sortWindow;
